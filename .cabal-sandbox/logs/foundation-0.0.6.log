@@ -1,0 +1,1055 @@
+cabal: Entering directory '/var/folders/kk/kngh2vtx0v138fhh9rsjgydw0000gn/T/cabal-tmp-7609/foundation-0.0.6'
+Configuring foundation-0.0.6...
+Building foundation-0.0.6...
+Preprocessing library foundation-0.0.6...
+[  1 of 124] Compiling Foundation.Internal.PrimTypes ( Foundation/Internal/PrimTypes.hs, dist/dist-sandbox-dcd36517/build/Foundation/Internal/PrimTypes.o )
+[  2 of 124] Compiling Foundation.Internal.Identity ( Foundation/Internal/Identity.hs, dist/dist-sandbox-dcd36517/build/Foundation/Internal/Identity.o )
+[  3 of 124] Compiling Foundation.Internal.CallStack ( Foundation/Internal/CallStack.hs, dist/dist-sandbox-dcd36517/build/Foundation/Internal/CallStack.o )
+[  4 of 124] Compiling Foundation.Numerical.Primitives ( Foundation/Numerical/Primitives.hs, dist/dist-sandbox-dcd36517/build/Foundation/Numerical/Primitives.o )
+[  5 of 124] Compiling Foundation.Internal.Primitive ( Foundation/Internal/Primitive.hs, dist/dist-sandbox-dcd36517/build/Foundation/Internal/Primitive.o )
+[  6 of 124] Compiling Foundation.String.Internal ( Foundation/String/Internal.hs, dist/dist-sandbox-dcd36517/build/Foundation/String/Internal.o )
+[  7 of 124] Compiling Foundation.System.Bindings.Hs ( Foundation/System/Bindings/Hs.hs, dist/dist-sandbox-dcd36517/build/Foundation/System/Bindings/Hs.o )
+[  8 of 124] Compiling Foundation.System.Bindings.PosixDef ( dist/dist-sandbox-dcd36517/build/Foundation/System/Bindings/PosixDef.hs, dist/dist-sandbox-dcd36517/build/Foundation/System/Bindings/PosixDef.o )
+[  9 of 124] Compiling Foundation.Primitive.Base16 ( Foundation/Primitive/Base16.hs, dist/dist-sandbox-dcd36517/build/Foundation/Primitive/Base16.o )
+[ 10 of 124] Compiling Foundation.Strict ( Foundation/Strict.hs, dist/dist-sandbox-dcd36517/build/Foundation/Strict.o )
+[ 11 of 124] Compiling Foundation.Monad.MonadIO ( Foundation/Monad/MonadIO.hs, dist/dist-sandbox-dcd36517/build/Foundation/Monad/MonadIO.o )
+[ 12 of 124] Compiling Foundation.Internal.Natural ( Foundation/Internal/Natural.hs, dist/dist-sandbox-dcd36517/build/Foundation/Internal/Natural.o )
+[ 13 of 124] Compiling Foundation.Internal.NumLiteral ( Foundation/Internal/NumLiteral.hs, dist/dist-sandbox-dcd36517/build/Foundation/Internal/NumLiteral.o )
+[ 14 of 124] Compiling Foundation.Class.Bifunctor ( Foundation/Class/Bifunctor.hs, dist/dist-sandbox-dcd36517/build/Foundation/Class/Bifunctor.o )
+[ 15 of 124] Compiling Foundation.Internal.Proxy ( Foundation/Internal/Proxy.hs, dist/dist-sandbox-dcd36517/build/Foundation/Internal/Proxy.o )
+[ 16 of 124] Compiling Foundation.Internal.IsList ( Foundation/Internal/IsList.hs, dist/dist-sandbox-dcd36517/build/Foundation/Internal/IsList.o )
+[ 17 of 124] Compiling Foundation.Internal.Base ( Foundation/Internal/Base.hs, dist/dist-sandbox-dcd36517/build/Foundation/Internal/Base.o )
+[ 18 of 124] Compiling Foundation.Partial ( Foundation/Partial.hs, dist/dist-sandbox-dcd36517/build/Foundation/Partial.o )
+[ 19 of 124] Compiling Foundation.Numerical.Number ( Foundation/Numerical/Number.hs, dist/dist-sandbox-dcd36517/build/Foundation/Numerical/Number.o )
+[ 20 of 124] Compiling Foundation.Numerical.Additive ( Foundation/Numerical/Additive.hs, dist/dist-sandbox-dcd36517/build/Foundation/Numerical/Additive.o )
+[ 21 of 124] Compiling Foundation.Numerical.Subtractive ( Foundation/Numerical/Subtractive.hs, dist/dist-sandbox-dcd36517/build/Foundation/Numerical/Subtractive.o )
+[ 22 of 124] Compiling Foundation.Numerical.Multiplicative ( Foundation/Numerical/Multiplicative.hs, dist/dist-sandbox-dcd36517/build/Foundation/Numerical/Multiplicative.o )
+[ 23 of 124] Compiling Foundation.Internal.Types ( Foundation/Internal/Types.hs, dist/dist-sandbox-dcd36517/build/Foundation/Internal/Types.o )
+[ 24 of 124] Compiling Foundation.Numerical.Floating ( Foundation/Numerical/Floating.hs, dist/dist-sandbox-dcd36517/build/Foundation/Numerical/Floating.o )
+[ 25 of 124] Compiling Foundation.Numerical ( Foundation/Numerical.hs, dist/dist-sandbox-dcd36517/build/Foundation/Numerical.o )
+[ 26 of 124] Compiling Foundation.Array.Common ( Foundation/Array/Common.hs, dist/dist-sandbox-dcd36517/build/Foundation/Array/Common.o )
+[ 27 of 124] Compiling Foundation.Bits  ( Foundation/Bits.hs, dist/dist-sandbox-dcd36517/build/Foundation/Bits.o )
+[ 28 of 124] Compiling Foundation.Convertible ( Foundation/Convertible.hs, dist/dist-sandbox-dcd36517/build/Foundation/Convertible.o )
+[ 29 of 124] Compiling Foundation.Primitive.Monad ( Foundation/Primitive/Monad.hs, dist/dist-sandbox-dcd36517/build/Foundation/Primitive/Monad.o )
+[ 30 of 124] Compiling Foundation.Primitive.FinalPtr ( Foundation/Primitive/FinalPtr.hs, dist/dist-sandbox-dcd36517/build/Foundation/Primitive/FinalPtr.o )
+[ 31 of 124] Compiling Foundation.VFS.Path ( Foundation/VFS/Path.hs, dist/dist-sandbox-dcd36517/build/Foundation/VFS/Path.o )
+[ 32 of 124] Compiling Foundation.VFS.URI ( Foundation/VFS/URI.hs, dist/dist-sandbox-dcd36517/build/Foundation/VFS/URI.o )
+[ 33 of 124] Compiling Foundation.Math.Trigonometry ( Foundation/Math/Trigonometry.hs, dist/dist-sandbox-dcd36517/build/Foundation/Math/Trigonometry.o )
+
+Foundation/Math/Trigonometry.hs:7:1: warning: [-Wunused-imports]
+    The import of ‘Foundation.Numerical’ is redundant
+      except perhaps to import instances from ‘Foundation.Numerical’
+    To import instances alone, use: import Foundation.Numerical()
+[ 34 of 124] Compiling Foundation.Collection.Keyed ( Foundation/Collection/Keyed.hs, dist/dist-sandbox-dcd36517/build/Foundation/Collection/Keyed.o )
+[ 35 of 124] Compiling Foundation.Primitive.IntegralConv ( Foundation/Primitive/IntegralConv.hs, dist/dist-sandbox-dcd36517/build/Foundation/Primitive/IntegralConv.o )
+[ 36 of 124] Compiling Foundation.Monad.Exception ( Foundation/Monad/Exception.hs, dist/dist-sandbox-dcd36517/build/Foundation/Monad/Exception.o )
+[ 37 of 124] Compiling Foundation.Monad.Transformer ( Foundation/Monad/Transformer.hs, dist/dist-sandbox-dcd36517/build/Foundation/Monad/Transformer.o )
+[ 38 of 124] Compiling Foundation.Monad ( Foundation/Monad.hs, dist/dist-sandbox-dcd36517/build/Foundation/Monad.o )
+[ 39 of 124] Compiling Foundation.Conduit.Internal ( Foundation/Conduit/Internal.hs, dist/dist-sandbox-dcd36517/build/Foundation/Conduit/Internal.o )
+
+Foundation/Conduit/Internal.hs:145:11: warning: [-Winline-rule-shadowing]
+    Rule "conduit: await >>= maybe" may never fire
+      because ‘maybe’ might inline first
+    Probable fix: add an INLINE[n] or NOINLINE[n] pragma for ‘maybe’
+[ 40 of 124] Compiling Foundation.System.Bindings.Network ( dist/dist-sandbox-dcd36517/build/Foundation/System/Bindings/Network.hs, dist/dist-sandbox-dcd36517/build/Foundation/System/Bindings/Network.o )
+[ 41 of 124] Compiling Foundation.System.Entropy.Common ( Foundation/System/Entropy/Common.hs, dist/dist-sandbox-dcd36517/build/Foundation/System/Entropy/Common.o )
+[ 42 of 124] Compiling Foundation.System.Entropy.Unix ( Foundation/System/Entropy/Unix.hs, dist/dist-sandbox-dcd36517/build/Foundation/System/Entropy/Unix.o )
+[ 43 of 124] Compiling Foundation.System.Bindings.Posix ( dist/dist-sandbox-dcd36517/build/Foundation/System/Bindings/Posix.hs, dist/dist-sandbox-dcd36517/build/Foundation/System/Bindings/Posix.o )
+[ 44 of 124] Compiling Foundation.System.Bindings ( Foundation/System/Bindings.hs, dist/dist-sandbox-dcd36517/build/Foundation/System/Bindings.o )
+[ 45 of 124] Compiling Foundation.System.Bindings.Macos ( dist/dist-sandbox-dcd36517/build/Foundation/System/Bindings/Macos.hs, dist/dist-sandbox-dcd36517/build/Foundation/System/Bindings/Macos.o )
+[ 46 of 124] Compiling Foundation.Primitive.Nat ( Foundation/Primitive/Nat.hs, dist/dist-sandbox-dcd36517/build/Foundation/Primitive/Nat.o )
+[ 47 of 124] Compiling Foundation.List.SList ( Foundation/List/SList.hs, dist/dist-sandbox-dcd36517/build/Foundation/List/SList.o )
+[ 48 of 124] Compiling Foundation.Internal.MonadTrans ( Foundation/Internal/MonadTrans.hs, dist/dist-sandbox-dcd36517/build/Foundation/Internal/MonadTrans.o )
+[ 49 of 124] Compiling Foundation.Boot.Builder ( Foundation/Boot/Builder.hs, dist/dist-sandbox-dcd36517/build/Foundation/Boot/Builder.o )
+[ 50 of 124] Compiling Foundation.Boot.List ( Foundation/Boot/List.hs, dist/dist-sandbox-dcd36517/build/Foundation/Boot/List.o )
+[ 51 of 124] Compiling Foundation.String.UTF8Table ( Foundation/String/UTF8Table.hs, dist/dist-sandbox-dcd36517/build/Foundation/String/UTF8Table.o )
+[ 52 of 124] Compiling Foundation.Collection.List ( Foundation/Collection/List.hs, dist/dist-sandbox-dcd36517/build/Foundation/Collection/List.o )
+[ 53 of 124] Compiling Foundation.Internal.ByteSwap ( Foundation/Internal/ByteSwap.hs, dist/dist-sandbox-dcd36517/build/Foundation/Internal/ByteSwap.o )
+[ 54 of 124] Compiling Foundation.Primitive.Endianness ( Foundation/Primitive/Endianness.hs, dist/dist-sandbox-dcd36517/build/Foundation/Primitive/Endianness.o )
+[ 55 of 124] Compiling Foundation.Primitive.Types ( Foundation/Primitive/Types.hs, dist/dist-sandbox-dcd36517/build/Foundation/Primitive/Types.o )
+[ 56 of 124] Compiling Foundation.Array.Boxed ( Foundation/Array/Boxed.hs, dist/dist-sandbox-dcd36517/build/Foundation/Array/Boxed.o )
+[ 57 of 124] Compiling Foundation.Collection.Mappable ( Foundation/Collection/Mappable.hs, dist/dist-sandbox-dcd36517/build/Foundation/Collection/Mappable.o )
+
+Foundation/Collection/Mappable.hs:69:1: warning: [-Wunused-top-binds]
+    Defined but not used: ‘sequenceA_’
+[ 58 of 124] Compiling Foundation.Primitive ( Foundation/Primitive.hs, dist/dist-sandbox-dcd36517/build/Foundation/Primitive.o )
+[ 59 of 124] Compiling Foundation.Internal.Environment ( Foundation/Internal/Environment.hs, dist/dist-sandbox-dcd36517/build/Foundation/Internal/Environment.o )
+[ 60 of 124] Compiling Foundation.Array.Unboxed.Mutable ( Foundation/Array/Unboxed/Mutable.hs, dist/dist-sandbox-dcd36517/build/Foundation/Array/Unboxed/Mutable.o )
+[ 61 of 124] Compiling Foundation.Array.Unboxed.ByteArray ( Foundation/Array/Unboxed/ByteArray.hs, dist/dist-sandbox-dcd36517/build/Foundation/Array/Unboxed/ByteArray.o )
+[ 62 of 124] Compiling Foundation.Primitive.Utils ( Foundation/Primitive/Utils.hs, dist/dist-sandbox-dcd36517/build/Foundation/Primitive/Utils.o )
+[ 63 of 124] Compiling Foundation.Array.Unboxed ( Foundation/Array/Unboxed.hs, dist/dist-sandbox-dcd36517/build/Foundation/Array/Unboxed.o )
+[ 64 of 124] Compiling Foundation.Array.Internal ( Foundation/Array/Internal.hs, dist/dist-sandbox-dcd36517/build/Foundation/Array/Internal.o )
+[ 65 of 124] Compiling Foundation.Foreign ( Foundation/Foreign.hs, dist/dist-sandbox-dcd36517/build/Foundation/Foreign.o )
+[ 66 of 124] Compiling Foundation.Collection.Mutable ( Foundation/Collection/Mutable.hs, dist/dist-sandbox-dcd36517/build/Foundation/Collection/Mutable.o )
+[ 67 of 124] Compiling Foundation.System.Entropy ( Foundation/System/Entropy.hs, dist/dist-sandbox-dcd36517/build/Foundation/System/Entropy.o )
+[ 68 of 124] Compiling Foundation.String.ModifiedUTF8 ( Foundation/String/ModifiedUTF8.hs, dist/dist-sandbox-dcd36517/build/Foundation/String/ModifiedUTF8.o )
+[ 69 of 124] Compiling Foundation.String.Encoding.Encoding ( Foundation/String/Encoding/Encoding.hs, dist/dist-sandbox-dcd36517/build/Foundation/String/Encoding/Encoding.o )
+[ 70 of 124] Compiling Foundation.String.Encoding.ASCII7 ( Foundation/String/Encoding/ASCII7.hs, dist/dist-sandbox-dcd36517/build/Foundation/String/Encoding/ASCII7.o )
+[ 71 of 124] Compiling Foundation.String.Encoding.UTF16 ( Foundation/String/Encoding/UTF16.hs, dist/dist-sandbox-dcd36517/build/Foundation/String/Encoding/UTF16.o )
+[ 72 of 124] Compiling Foundation.String.Encoding.UTF32 ( Foundation/String/Encoding/UTF32.hs, dist/dist-sandbox-dcd36517/build/Foundation/String/Encoding/UTF32.o )
+[ 73 of 124] Compiling Foundation.String.Encoding.ISO_8859_1 ( Foundation/String/Encoding/ISO_8859_1.hs, dist/dist-sandbox-dcd36517/build/Foundation/String/Encoding/ISO_8859_1.o )
+[ 74 of 124] Compiling Foundation.String.UTF8 ( Foundation/String/UTF8.hs, dist/dist-sandbox-dcd36517/build/Foundation/String/UTF8.o )
+[ 75 of 124] Compiling Foundation.Internal.Error ( Foundation/Internal/Error.hs, dist/dist-sandbox-dcd36517/build/Foundation/Internal/Error.o )
+[ 76 of 124] Compiling Foundation.Collection.Element ( Foundation/Collection/Element.hs, dist/dist-sandbox-dcd36517/build/Foundation/Collection/Element.o )
+[ 77 of 124] Compiling Foundation.Collection.Buildable ( Foundation/Collection/Buildable.hs, dist/dist-sandbox-dcd36517/build/Foundation/Collection/Buildable.o )
+[ 78 of 124] Compiling Foundation.Collection.Foldable ( Foundation/Collection/Foldable.hs, dist/dist-sandbox-dcd36517/build/Foundation/Collection/Foldable.o )
+[ 79 of 124] Compiling Foundation.Collection.Indexed ( Foundation/Collection/Indexed.hs, dist/dist-sandbox-dcd36517/build/Foundation/Collection/Indexed.o )
+[ 80 of 124] Compiling Foundation.Collection.InnerFunctor ( Foundation/Collection/InnerFunctor.hs, dist/dist-sandbox-dcd36517/build/Foundation/Collection/InnerFunctor.o )
+[ 81 of 124] Compiling Foundation.Collection.Collection ( Foundation/Collection/Collection.hs, dist/dist-sandbox-dcd36517/build/Foundation/Collection/Collection.o )
+[ 82 of 124] Compiling Foundation.Collection.Sequential ( Foundation/Collection/Sequential.hs, dist/dist-sandbox-dcd36517/build/Foundation/Collection/Sequential.o )
+[ 83 of 124] Compiling Foundation.Collection.Zippable ( Foundation/Collection/Zippable.hs, dist/dist-sandbox-dcd36517/build/Foundation/Collection/Zippable.o )
+[ 84 of 124] Compiling Foundation.Collection.Copy ( Foundation/Collection/Copy.hs, dist/dist-sandbox-dcd36517/build/Foundation/Collection/Copy.o )
+[ 85 of 124] Compiling Foundation.Monad.Identity ( Foundation/Monad/Identity.hs, dist/dist-sandbox-dcd36517/build/Foundation/Monad/Identity.o )
+[ 86 of 124] Compiling Foundation.Monad.Base ( Foundation/Monad/Base.hs, dist/dist-sandbox-dcd36517/build/Foundation/Monad/Base.o )
+[ 87 of 124] Compiling Foundation.Monad.Reader ( Foundation/Monad/Reader.hs, dist/dist-sandbox-dcd36517/build/Foundation/Monad/Reader.o )
+[ 88 of 124] Compiling Foundation.Monad.State ( Foundation/Monad/State.hs, dist/dist-sandbox-dcd36517/build/Foundation/Monad/State.o )
+[ 89 of 124] Compiling Foundation.Collection ( Foundation/Collection.hs, dist/dist-sandbox-dcd36517/build/Foundation/Collection.o )
+[ 90 of 124] Compiling Foundation.Array.Bitmap ( Foundation/Array/Bitmap.hs, dist/dist-sandbox-dcd36517/build/Foundation/Array/Bitmap.o )
+[ 91 of 124] Compiling Foundation.Array.Chunked.Unboxed ( Foundation/Array/Chunked/Unboxed.hs, dist/dist-sandbox-dcd36517/build/Foundation/Array/Chunked/Unboxed.o )
+[ 92 of 124] Compiling Foundation.Class.Storable ( Foundation/Class/Storable.hs, dist/dist-sandbox-dcd36517/build/Foundation/Class/Storable.o )
+[ 93 of 124] Compiling Foundation.String.ASCII ( Foundation/String/ASCII.hs, dist/dist-sandbox-dcd36517/build/Foundation/String/ASCII.o )
+
+Foundation/String/ASCII.hs:191:11: warning: [-Winline-rule-shadowing]
+    Rule "break (== 'c')" may never fire
+      because rule "Class op ==" for ‘==’ might fire first
+    Probable fix: add phase [n] or [~n] to the competing rule
+[ 94 of 124] Compiling Foundation.Array ( Foundation/Array.hs, dist/dist-sandbox-dcd36517/build/Foundation/Array.o )
+[ 95 of 124] Compiling Foundation.Hashing.Hasher ( Foundation/Hashing/Hasher.hs, dist/dist-sandbox-dcd36517/build/Foundation/Hashing/Hasher.o )
+[ 96 of 124] Compiling Foundation.Hashing.FNV ( Foundation/Hashing/FNV.hs, dist/dist-sandbox-dcd36517/build/Foundation/Hashing/FNV.o )
+[ 97 of 124] Compiling Foundation.Hashing.SipHash ( Foundation/Hashing/SipHash.hs, dist/dist-sandbox-dcd36517/build/Foundation/Hashing/SipHash.o )
+[ 98 of 124] Compiling Foundation.Random ( Foundation/Random.hs, dist/dist-sandbox-dcd36517/build/Foundation/Random.o )
+[ 99 of 124] Compiling Foundation.String ( Foundation/String.hs, dist/dist-sandbox-dcd36517/build/Foundation/String.o )
+[100 of 124] Compiling Foundation.IO.Terminal ( Foundation/IO/Terminal.hs, dist/dist-sandbox-dcd36517/build/Foundation/IO/Terminal.o )
+[101 of 124] Compiling Foundation.VFS.FilePath ( Foundation/VFS/FilePath.hs, dist/dist-sandbox-dcd36517/build/Foundation/VFS/FilePath.o )
+[102 of 124] Compiling Foundation.VFS   ( Foundation/VFS.hs, dist/dist-sandbox-dcd36517/build/Foundation/VFS.o )
+[103 of 124] Compiling Foundation.IO.File ( Foundation/IO/File.hs, dist/dist-sandbox-dcd36517/build/Foundation/IO/File.o )
+[104 of 124] Compiling Foundation.IO    ( Foundation/IO.hs, dist/dist-sandbox-dcd36517/build/Foundation/IO.o )
+[105 of 124] Compiling Foundation.Foreign.MemoryMap.Types ( Foundation/Foreign/MemoryMap/Types.hs, dist/dist-sandbox-dcd36517/build/Foundation/Foreign/MemoryMap/Types.o )
+[106 of 124] Compiling Foundation.Foreign.MemoryMap.Posix ( dist/dist-sandbox-dcd36517/build/Foundation/Foreign/MemoryMap/Posix.hs, dist/dist-sandbox-dcd36517/build/Foundation/Foreign/MemoryMap/Posix.o )
+[107 of 124] Compiling Foundation.Foreign.MemoryMap ( Foundation/Foreign/MemoryMap.hs, dist/dist-sandbox-dcd36517/build/Foundation/Foreign/MemoryMap.o )
+[108 of 124] Compiling Foundation.IO.FileMap ( Foundation/IO/FileMap.hs, dist/dist-sandbox-dcd36517/build/Foundation/IO/FileMap.o )
+[109 of 124] Compiling Foundation.Parser ( Foundation/Parser.hs, dist/dist-sandbox-dcd36517/build/Foundation/Parser.o )
+[110 of 124] Compiling Foundation.System.Info ( Foundation/System/Info.hs, dist/dist-sandbox-dcd36517/build/Foundation/System/Info.o )
+[111 of 124] Compiling Foundation.Check.Gen ( Foundation/Check/Gen.hs, dist/dist-sandbox-dcd36517/build/Foundation/Check/Gen.o )
+[112 of 124] Compiling Foundation.Check.Arbitrary ( Foundation/Check/Arbitrary.hs, dist/dist-sandbox-dcd36517/build/Foundation/Check/Arbitrary.o )
+[113 of 124] Compiling Foundation.Check.Property ( Foundation/Check/Property.hs, dist/dist-sandbox-dcd36517/build/Foundation/Check/Property.o )
+[114 of 124] Compiling Foundation.Check ( Foundation/Check.hs, dist/dist-sandbox-dcd36517/build/Foundation/Check.o )
+[115 of 124] Compiling Foundation.Tuple ( Foundation/Tuple.hs, dist/dist-sandbox-dcd36517/build/Foundation/Tuple.o )
+[116 of 124] Compiling Foundation.Hashing.Hashable ( Foundation/Hashing/Hashable.hs, dist/dist-sandbox-dcd36517/build/Foundation/Hashing/Hashable.o )
+[117 of 124] Compiling Foundation.Hashing ( Foundation/Hashing.hs, dist/dist-sandbox-dcd36517/build/Foundation/Hashing.o )
+[118 of 124] Compiling Foundation.Network.IPv4 ( Foundation/Network/IPv4.hs, dist/dist-sandbox-dcd36517/build/Foundation/Network/IPv4.o )
+[119 of 124] Compiling Foundation.Network.IPv6 ( Foundation/Network/IPv6.hs, dist/dist-sandbox-dcd36517/build/Foundation/Network/IPv6.o )
+[120 of 124] Compiling Foundation.Network.HostName ( dist/dist-sandbox-dcd36517/build/Foundation/Network/HostName.hs, dist/dist-sandbox-dcd36517/build/Foundation/Network/HostName.o )
+[121 of 124] Compiling Foundation.UUID  ( Foundation/UUID.hs, dist/dist-sandbox-dcd36517/build/Foundation/UUID.o )
+[122 of 124] Compiling Foundation.Tuple.Nth ( Foundation/Tuple/Nth.hs, dist/dist-sandbox-dcd36517/build/Foundation/Tuple/Nth.o )
+[123 of 124] Compiling Foundation       ( Foundation.hs, dist/dist-sandbox-dcd36517/build/Foundation.o )
+[124 of 124] Compiling Foundation.Conduit ( Foundation/Conduit.hs, dist/dist-sandbox-dcd36517/build/Foundation/Conduit.o )
+[  1 of 124] Compiling Foundation.Internal.PrimTypes ( Foundation/Internal/PrimTypes.hs, dist/dist-sandbox-dcd36517/build/Foundation/Internal/PrimTypes.p_o )
+[  2 of 124] Compiling Foundation.Internal.Identity ( Foundation/Internal/Identity.hs, dist/dist-sandbox-dcd36517/build/Foundation/Internal/Identity.p_o )
+[  3 of 124] Compiling Foundation.Internal.CallStack ( Foundation/Internal/CallStack.hs, dist/dist-sandbox-dcd36517/build/Foundation/Internal/CallStack.p_o )
+[  4 of 124] Compiling Foundation.Numerical.Primitives ( Foundation/Numerical/Primitives.hs, dist/dist-sandbox-dcd36517/build/Foundation/Numerical/Primitives.p_o )
+[  5 of 124] Compiling Foundation.Internal.Primitive ( Foundation/Internal/Primitive.hs, dist/dist-sandbox-dcd36517/build/Foundation/Internal/Primitive.p_o )
+[  6 of 124] Compiling Foundation.String.Internal ( Foundation/String/Internal.hs, dist/dist-sandbox-dcd36517/build/Foundation/String/Internal.p_o )
+[  7 of 124] Compiling Foundation.System.Bindings.Hs ( Foundation/System/Bindings/Hs.hs, dist/dist-sandbox-dcd36517/build/Foundation/System/Bindings/Hs.p_o )
+[  8 of 124] Compiling Foundation.System.Bindings.PosixDef ( dist/dist-sandbox-dcd36517/build/Foundation/System/Bindings/PosixDef.hs, dist/dist-sandbox-dcd36517/build/Foundation/System/Bindings/PosixDef.p_o )
+[  9 of 124] Compiling Foundation.Primitive.Base16 ( Foundation/Primitive/Base16.hs, dist/dist-sandbox-dcd36517/build/Foundation/Primitive/Base16.p_o )
+[ 10 of 124] Compiling Foundation.Strict ( Foundation/Strict.hs, dist/dist-sandbox-dcd36517/build/Foundation/Strict.p_o )
+[ 11 of 124] Compiling Foundation.Monad.MonadIO ( Foundation/Monad/MonadIO.hs, dist/dist-sandbox-dcd36517/build/Foundation/Monad/MonadIO.p_o )
+[ 12 of 124] Compiling Foundation.Internal.Natural ( Foundation/Internal/Natural.hs, dist/dist-sandbox-dcd36517/build/Foundation/Internal/Natural.p_o )
+[ 13 of 124] Compiling Foundation.Internal.NumLiteral ( Foundation/Internal/NumLiteral.hs, dist/dist-sandbox-dcd36517/build/Foundation/Internal/NumLiteral.p_o )
+[ 14 of 124] Compiling Foundation.Class.Bifunctor ( Foundation/Class/Bifunctor.hs, dist/dist-sandbox-dcd36517/build/Foundation/Class/Bifunctor.p_o )
+[ 15 of 124] Compiling Foundation.Internal.Proxy ( Foundation/Internal/Proxy.hs, dist/dist-sandbox-dcd36517/build/Foundation/Internal/Proxy.p_o )
+[ 16 of 124] Compiling Foundation.Internal.IsList ( Foundation/Internal/IsList.hs, dist/dist-sandbox-dcd36517/build/Foundation/Internal/IsList.p_o )
+[ 17 of 124] Compiling Foundation.Internal.Base ( Foundation/Internal/Base.hs, dist/dist-sandbox-dcd36517/build/Foundation/Internal/Base.p_o )
+[ 18 of 124] Compiling Foundation.Partial ( Foundation/Partial.hs, dist/dist-sandbox-dcd36517/build/Foundation/Partial.p_o )
+[ 19 of 124] Compiling Foundation.Numerical.Number ( Foundation/Numerical/Number.hs, dist/dist-sandbox-dcd36517/build/Foundation/Numerical/Number.p_o )
+[ 20 of 124] Compiling Foundation.Numerical.Additive ( Foundation/Numerical/Additive.hs, dist/dist-sandbox-dcd36517/build/Foundation/Numerical/Additive.p_o )
+[ 21 of 124] Compiling Foundation.Numerical.Subtractive ( Foundation/Numerical/Subtractive.hs, dist/dist-sandbox-dcd36517/build/Foundation/Numerical/Subtractive.p_o )
+[ 22 of 124] Compiling Foundation.Numerical.Multiplicative ( Foundation/Numerical/Multiplicative.hs, dist/dist-sandbox-dcd36517/build/Foundation/Numerical/Multiplicative.p_o )
+[ 23 of 124] Compiling Foundation.Internal.Types ( Foundation/Internal/Types.hs, dist/dist-sandbox-dcd36517/build/Foundation/Internal/Types.p_o )
+[ 24 of 124] Compiling Foundation.Numerical.Floating ( Foundation/Numerical/Floating.hs, dist/dist-sandbox-dcd36517/build/Foundation/Numerical/Floating.p_o )
+[ 25 of 124] Compiling Foundation.Numerical ( Foundation/Numerical.hs, dist/dist-sandbox-dcd36517/build/Foundation/Numerical.p_o )
+[ 26 of 124] Compiling Foundation.Array.Common ( Foundation/Array/Common.hs, dist/dist-sandbox-dcd36517/build/Foundation/Array/Common.p_o )
+[ 27 of 124] Compiling Foundation.Bits  ( Foundation/Bits.hs, dist/dist-sandbox-dcd36517/build/Foundation/Bits.p_o )
+[ 28 of 124] Compiling Foundation.Convertible ( Foundation/Convertible.hs, dist/dist-sandbox-dcd36517/build/Foundation/Convertible.p_o )
+[ 29 of 124] Compiling Foundation.Primitive.Monad ( Foundation/Primitive/Monad.hs, dist/dist-sandbox-dcd36517/build/Foundation/Primitive/Monad.p_o )
+[ 30 of 124] Compiling Foundation.Primitive.FinalPtr ( Foundation/Primitive/FinalPtr.hs, dist/dist-sandbox-dcd36517/build/Foundation/Primitive/FinalPtr.p_o )
+[ 31 of 124] Compiling Foundation.VFS.Path ( Foundation/VFS/Path.hs, dist/dist-sandbox-dcd36517/build/Foundation/VFS/Path.p_o )
+[ 32 of 124] Compiling Foundation.VFS.URI ( Foundation/VFS/URI.hs, dist/dist-sandbox-dcd36517/build/Foundation/VFS/URI.p_o )
+[ 33 of 124] Compiling Foundation.Math.Trigonometry ( Foundation/Math/Trigonometry.hs, dist/dist-sandbox-dcd36517/build/Foundation/Math/Trigonometry.p_o )
+
+Foundation/Math/Trigonometry.hs:7:1: warning: [-Wunused-imports]
+    The import of ‘Foundation.Numerical’ is redundant
+      except perhaps to import instances from ‘Foundation.Numerical’
+    To import instances alone, use: import Foundation.Numerical()
+[ 34 of 124] Compiling Foundation.Collection.Keyed ( Foundation/Collection/Keyed.hs, dist/dist-sandbox-dcd36517/build/Foundation/Collection/Keyed.p_o )
+[ 35 of 124] Compiling Foundation.Primitive.IntegralConv ( Foundation/Primitive/IntegralConv.hs, dist/dist-sandbox-dcd36517/build/Foundation/Primitive/IntegralConv.p_o )
+[ 36 of 124] Compiling Foundation.Monad.Exception ( Foundation/Monad/Exception.hs, dist/dist-sandbox-dcd36517/build/Foundation/Monad/Exception.p_o )
+[ 37 of 124] Compiling Foundation.Monad.Transformer ( Foundation/Monad/Transformer.hs, dist/dist-sandbox-dcd36517/build/Foundation/Monad/Transformer.p_o )
+[ 38 of 124] Compiling Foundation.Monad ( Foundation/Monad.hs, dist/dist-sandbox-dcd36517/build/Foundation/Monad.p_o )
+[ 39 of 124] Compiling Foundation.Conduit.Internal ( Foundation/Conduit/Internal.hs, dist/dist-sandbox-dcd36517/build/Foundation/Conduit/Internal.p_o )
+
+Foundation/Conduit/Internal.hs:145:11: warning: [-Winline-rule-shadowing]
+    Rule "conduit: await >>= maybe" may never fire
+      because ‘maybe’ might inline first
+    Probable fix: add an INLINE[n] or NOINLINE[n] pragma for ‘maybe’
+[ 40 of 124] Compiling Foundation.System.Bindings.Network ( dist/dist-sandbox-dcd36517/build/Foundation/System/Bindings/Network.hs, dist/dist-sandbox-dcd36517/build/Foundation/System/Bindings/Network.p_o )
+[ 41 of 124] Compiling Foundation.System.Entropy.Common ( Foundation/System/Entropy/Common.hs, dist/dist-sandbox-dcd36517/build/Foundation/System/Entropy/Common.p_o )
+[ 42 of 124] Compiling Foundation.System.Entropy.Unix ( Foundation/System/Entropy/Unix.hs, dist/dist-sandbox-dcd36517/build/Foundation/System/Entropy/Unix.p_o )
+[ 43 of 124] Compiling Foundation.System.Bindings.Posix ( dist/dist-sandbox-dcd36517/build/Foundation/System/Bindings/Posix.hs, dist/dist-sandbox-dcd36517/build/Foundation/System/Bindings/Posix.p_o )
+[ 44 of 124] Compiling Foundation.System.Bindings ( Foundation/System/Bindings.hs, dist/dist-sandbox-dcd36517/build/Foundation/System/Bindings.p_o )
+[ 45 of 124] Compiling Foundation.System.Bindings.Macos ( dist/dist-sandbox-dcd36517/build/Foundation/System/Bindings/Macos.hs, dist/dist-sandbox-dcd36517/build/Foundation/System/Bindings/Macos.p_o )
+[ 46 of 124] Compiling Foundation.Primitive.Nat ( Foundation/Primitive/Nat.hs, dist/dist-sandbox-dcd36517/build/Foundation/Primitive/Nat.p_o )
+[ 47 of 124] Compiling Foundation.List.SList ( Foundation/List/SList.hs, dist/dist-sandbox-dcd36517/build/Foundation/List/SList.p_o )
+[ 48 of 124] Compiling Foundation.Internal.MonadTrans ( Foundation/Internal/MonadTrans.hs, dist/dist-sandbox-dcd36517/build/Foundation/Internal/MonadTrans.p_o )
+[ 49 of 124] Compiling Foundation.Boot.Builder ( Foundation/Boot/Builder.hs, dist/dist-sandbox-dcd36517/build/Foundation/Boot/Builder.p_o )
+[ 50 of 124] Compiling Foundation.Boot.List ( Foundation/Boot/List.hs, dist/dist-sandbox-dcd36517/build/Foundation/Boot/List.p_o )
+[ 51 of 124] Compiling Foundation.String.UTF8Table ( Foundation/String/UTF8Table.hs, dist/dist-sandbox-dcd36517/build/Foundation/String/UTF8Table.p_o )
+[ 52 of 124] Compiling Foundation.Collection.List ( Foundation/Collection/List.hs, dist/dist-sandbox-dcd36517/build/Foundation/Collection/List.p_o )
+[ 53 of 124] Compiling Foundation.Internal.ByteSwap ( Foundation/Internal/ByteSwap.hs, dist/dist-sandbox-dcd36517/build/Foundation/Internal/ByteSwap.p_o )
+[ 54 of 124] Compiling Foundation.Primitive.Endianness ( Foundation/Primitive/Endianness.hs, dist/dist-sandbox-dcd36517/build/Foundation/Primitive/Endianness.p_o )
+[ 55 of 124] Compiling Foundation.Primitive.Types ( Foundation/Primitive/Types.hs, dist/dist-sandbox-dcd36517/build/Foundation/Primitive/Types.p_o )
+[ 56 of 124] Compiling Foundation.Array.Boxed ( Foundation/Array/Boxed.hs, dist/dist-sandbox-dcd36517/build/Foundation/Array/Boxed.p_o )
+[ 57 of 124] Compiling Foundation.Collection.Mappable ( Foundation/Collection/Mappable.hs, dist/dist-sandbox-dcd36517/build/Foundation/Collection/Mappable.p_o )
+
+Foundation/Collection/Mappable.hs:69:1: warning: [-Wunused-top-binds]
+    Defined but not used: ‘sequenceA_’
+[ 58 of 124] Compiling Foundation.Primitive ( Foundation/Primitive.hs, dist/dist-sandbox-dcd36517/build/Foundation/Primitive.p_o )
+[ 59 of 124] Compiling Foundation.Internal.Environment ( Foundation/Internal/Environment.hs, dist/dist-sandbox-dcd36517/build/Foundation/Internal/Environment.p_o )
+[ 60 of 124] Compiling Foundation.Array.Unboxed.Mutable ( Foundation/Array/Unboxed/Mutable.hs, dist/dist-sandbox-dcd36517/build/Foundation/Array/Unboxed/Mutable.p_o )
+[ 61 of 124] Compiling Foundation.Array.Unboxed.ByteArray ( Foundation/Array/Unboxed/ByteArray.hs, dist/dist-sandbox-dcd36517/build/Foundation/Array/Unboxed/ByteArray.p_o )
+[ 62 of 124] Compiling Foundation.Primitive.Utils ( Foundation/Primitive/Utils.hs, dist/dist-sandbox-dcd36517/build/Foundation/Primitive/Utils.p_o )
+[ 63 of 124] Compiling Foundation.Array.Unboxed ( Foundation/Array/Unboxed.hs, dist/dist-sandbox-dcd36517/build/Foundation/Array/Unboxed.p_o )
+[ 64 of 124] Compiling Foundation.Array.Internal ( Foundation/Array/Internal.hs, dist/dist-sandbox-dcd36517/build/Foundation/Array/Internal.p_o )
+[ 65 of 124] Compiling Foundation.Foreign ( Foundation/Foreign.hs, dist/dist-sandbox-dcd36517/build/Foundation/Foreign.p_o )
+[ 66 of 124] Compiling Foundation.Collection.Mutable ( Foundation/Collection/Mutable.hs, dist/dist-sandbox-dcd36517/build/Foundation/Collection/Mutable.p_o )
+[ 67 of 124] Compiling Foundation.System.Entropy ( Foundation/System/Entropy.hs, dist/dist-sandbox-dcd36517/build/Foundation/System/Entropy.p_o )
+[ 68 of 124] Compiling Foundation.String.ModifiedUTF8 ( Foundation/String/ModifiedUTF8.hs, dist/dist-sandbox-dcd36517/build/Foundation/String/ModifiedUTF8.p_o )
+[ 69 of 124] Compiling Foundation.String.Encoding.Encoding ( Foundation/String/Encoding/Encoding.hs, dist/dist-sandbox-dcd36517/build/Foundation/String/Encoding/Encoding.p_o )
+[ 70 of 124] Compiling Foundation.String.Encoding.ASCII7 ( Foundation/String/Encoding/ASCII7.hs, dist/dist-sandbox-dcd36517/build/Foundation/String/Encoding/ASCII7.p_o )
+[ 71 of 124] Compiling Foundation.String.Encoding.UTF16 ( Foundation/String/Encoding/UTF16.hs, dist/dist-sandbox-dcd36517/build/Foundation/String/Encoding/UTF16.p_o )
+[ 72 of 124] Compiling Foundation.String.Encoding.UTF32 ( Foundation/String/Encoding/UTF32.hs, dist/dist-sandbox-dcd36517/build/Foundation/String/Encoding/UTF32.p_o )
+[ 73 of 124] Compiling Foundation.String.Encoding.ISO_8859_1 ( Foundation/String/Encoding/ISO_8859_1.hs, dist/dist-sandbox-dcd36517/build/Foundation/String/Encoding/ISO_8859_1.p_o )
+[ 74 of 124] Compiling Foundation.String.UTF8 ( Foundation/String/UTF8.hs, dist/dist-sandbox-dcd36517/build/Foundation/String/UTF8.p_o )
+[ 75 of 124] Compiling Foundation.Internal.Error ( Foundation/Internal/Error.hs, dist/dist-sandbox-dcd36517/build/Foundation/Internal/Error.p_o )
+[ 76 of 124] Compiling Foundation.Collection.Element ( Foundation/Collection/Element.hs, dist/dist-sandbox-dcd36517/build/Foundation/Collection/Element.p_o )
+[ 77 of 124] Compiling Foundation.Collection.Buildable ( Foundation/Collection/Buildable.hs, dist/dist-sandbox-dcd36517/build/Foundation/Collection/Buildable.p_o )
+[ 78 of 124] Compiling Foundation.Collection.Foldable ( Foundation/Collection/Foldable.hs, dist/dist-sandbox-dcd36517/build/Foundation/Collection/Foldable.p_o )
+[ 79 of 124] Compiling Foundation.Collection.Indexed ( Foundation/Collection/Indexed.hs, dist/dist-sandbox-dcd36517/build/Foundation/Collection/Indexed.p_o )
+[ 80 of 124] Compiling Foundation.Collection.InnerFunctor ( Foundation/Collection/InnerFunctor.hs, dist/dist-sandbox-dcd36517/build/Foundation/Collection/InnerFunctor.p_o )
+[ 81 of 124] Compiling Foundation.Collection.Collection ( Foundation/Collection/Collection.hs, dist/dist-sandbox-dcd36517/build/Foundation/Collection/Collection.p_o )
+[ 82 of 124] Compiling Foundation.Collection.Sequential ( Foundation/Collection/Sequential.hs, dist/dist-sandbox-dcd36517/build/Foundation/Collection/Sequential.p_o )
+[ 83 of 124] Compiling Foundation.Collection.Zippable ( Foundation/Collection/Zippable.hs, dist/dist-sandbox-dcd36517/build/Foundation/Collection/Zippable.p_o )
+[ 84 of 124] Compiling Foundation.Collection.Copy ( Foundation/Collection/Copy.hs, dist/dist-sandbox-dcd36517/build/Foundation/Collection/Copy.p_o )
+[ 85 of 124] Compiling Foundation.Monad.Identity ( Foundation/Monad/Identity.hs, dist/dist-sandbox-dcd36517/build/Foundation/Monad/Identity.p_o )
+[ 86 of 124] Compiling Foundation.Monad.Base ( Foundation/Monad/Base.hs, dist/dist-sandbox-dcd36517/build/Foundation/Monad/Base.p_o )
+[ 87 of 124] Compiling Foundation.Monad.Reader ( Foundation/Monad/Reader.hs, dist/dist-sandbox-dcd36517/build/Foundation/Monad/Reader.p_o )
+[ 88 of 124] Compiling Foundation.Monad.State ( Foundation/Monad/State.hs, dist/dist-sandbox-dcd36517/build/Foundation/Monad/State.p_o )
+[ 89 of 124] Compiling Foundation.Collection ( Foundation/Collection.hs, dist/dist-sandbox-dcd36517/build/Foundation/Collection.p_o )
+[ 90 of 124] Compiling Foundation.Array.Bitmap ( Foundation/Array/Bitmap.hs, dist/dist-sandbox-dcd36517/build/Foundation/Array/Bitmap.p_o )
+[ 91 of 124] Compiling Foundation.Array.Chunked.Unboxed ( Foundation/Array/Chunked/Unboxed.hs, dist/dist-sandbox-dcd36517/build/Foundation/Array/Chunked/Unboxed.p_o )
+[ 92 of 124] Compiling Foundation.Class.Storable ( Foundation/Class/Storable.hs, dist/dist-sandbox-dcd36517/build/Foundation/Class/Storable.p_o )
+[ 93 of 124] Compiling Foundation.String.ASCII ( Foundation/String/ASCII.hs, dist/dist-sandbox-dcd36517/build/Foundation/String/ASCII.p_o )
+
+Foundation/String/ASCII.hs:191:11: warning: [-Winline-rule-shadowing]
+    Rule "break (== 'c')" may never fire
+      because rule "Class op ==" for ‘==’ might fire first
+    Probable fix: add phase [n] or [~n] to the competing rule
+[ 94 of 124] Compiling Foundation.Array ( Foundation/Array.hs, dist/dist-sandbox-dcd36517/build/Foundation/Array.p_o )
+[ 95 of 124] Compiling Foundation.Hashing.Hasher ( Foundation/Hashing/Hasher.hs, dist/dist-sandbox-dcd36517/build/Foundation/Hashing/Hasher.p_o )
+[ 96 of 124] Compiling Foundation.Hashing.FNV ( Foundation/Hashing/FNV.hs, dist/dist-sandbox-dcd36517/build/Foundation/Hashing/FNV.p_o )
+[ 97 of 124] Compiling Foundation.Hashing.SipHash ( Foundation/Hashing/SipHash.hs, dist/dist-sandbox-dcd36517/build/Foundation/Hashing/SipHash.p_o )
+[ 98 of 124] Compiling Foundation.Random ( Foundation/Random.hs, dist/dist-sandbox-dcd36517/build/Foundation/Random.p_o )
+[ 99 of 124] Compiling Foundation.String ( Foundation/String.hs, dist/dist-sandbox-dcd36517/build/Foundation/String.p_o )
+[100 of 124] Compiling Foundation.IO.Terminal ( Foundation/IO/Terminal.hs, dist/dist-sandbox-dcd36517/build/Foundation/IO/Terminal.p_o )
+[101 of 124] Compiling Foundation.VFS.FilePath ( Foundation/VFS/FilePath.hs, dist/dist-sandbox-dcd36517/build/Foundation/VFS/FilePath.p_o )
+[102 of 124] Compiling Foundation.VFS   ( Foundation/VFS.hs, dist/dist-sandbox-dcd36517/build/Foundation/VFS.p_o )
+[103 of 124] Compiling Foundation.IO.File ( Foundation/IO/File.hs, dist/dist-sandbox-dcd36517/build/Foundation/IO/File.p_o )
+[104 of 124] Compiling Foundation.IO    ( Foundation/IO.hs, dist/dist-sandbox-dcd36517/build/Foundation/IO.p_o )
+[105 of 124] Compiling Foundation.Foreign.MemoryMap.Types ( Foundation/Foreign/MemoryMap/Types.hs, dist/dist-sandbox-dcd36517/build/Foundation/Foreign/MemoryMap/Types.p_o )
+[106 of 124] Compiling Foundation.Foreign.MemoryMap.Posix ( dist/dist-sandbox-dcd36517/build/Foundation/Foreign/MemoryMap/Posix.hs, dist/dist-sandbox-dcd36517/build/Foundation/Foreign/MemoryMap/Posix.p_o )
+[107 of 124] Compiling Foundation.Foreign.MemoryMap ( Foundation/Foreign/MemoryMap.hs, dist/dist-sandbox-dcd36517/build/Foundation/Foreign/MemoryMap.p_o )
+[108 of 124] Compiling Foundation.IO.FileMap ( Foundation/IO/FileMap.hs, dist/dist-sandbox-dcd36517/build/Foundation/IO/FileMap.p_o )
+[109 of 124] Compiling Foundation.Parser ( Foundation/Parser.hs, dist/dist-sandbox-dcd36517/build/Foundation/Parser.p_o )
+[110 of 124] Compiling Foundation.System.Info ( Foundation/System/Info.hs, dist/dist-sandbox-dcd36517/build/Foundation/System/Info.p_o )
+[111 of 124] Compiling Foundation.Check.Gen ( Foundation/Check/Gen.hs, dist/dist-sandbox-dcd36517/build/Foundation/Check/Gen.p_o )
+[112 of 124] Compiling Foundation.Check.Arbitrary ( Foundation/Check/Arbitrary.hs, dist/dist-sandbox-dcd36517/build/Foundation/Check/Arbitrary.p_o )
+[113 of 124] Compiling Foundation.Check.Property ( Foundation/Check/Property.hs, dist/dist-sandbox-dcd36517/build/Foundation/Check/Property.p_o )
+[114 of 124] Compiling Foundation.Check ( Foundation/Check.hs, dist/dist-sandbox-dcd36517/build/Foundation/Check.p_o )
+[115 of 124] Compiling Foundation.Tuple ( Foundation/Tuple.hs, dist/dist-sandbox-dcd36517/build/Foundation/Tuple.p_o )
+[116 of 124] Compiling Foundation.Hashing.Hashable ( Foundation/Hashing/Hashable.hs, dist/dist-sandbox-dcd36517/build/Foundation/Hashing/Hashable.p_o )
+[117 of 124] Compiling Foundation.Hashing ( Foundation/Hashing.hs, dist/dist-sandbox-dcd36517/build/Foundation/Hashing.p_o )
+[118 of 124] Compiling Foundation.Network.IPv4 ( Foundation/Network/IPv4.hs, dist/dist-sandbox-dcd36517/build/Foundation/Network/IPv4.p_o )
+[119 of 124] Compiling Foundation.Network.IPv6 ( Foundation/Network/IPv6.hs, dist/dist-sandbox-dcd36517/build/Foundation/Network/IPv6.p_o )
+[120 of 124] Compiling Foundation.Network.HostName ( dist/dist-sandbox-dcd36517/build/Foundation/Network/HostName.hs, dist/dist-sandbox-dcd36517/build/Foundation/Network/HostName.p_o )
+[121 of 124] Compiling Foundation.UUID  ( Foundation/UUID.hs, dist/dist-sandbox-dcd36517/build/Foundation/UUID.p_o )
+[122 of 124] Compiling Foundation.Tuple.Nth ( Foundation/Tuple/Nth.hs, dist/dist-sandbox-dcd36517/build/Foundation/Tuple/Nth.p_o )
+[123 of 124] Compiling Foundation       ( Foundation.hs, dist/dist-sandbox-dcd36517/build/Foundation.p_o )
+[124 of 124] Compiling Foundation.Conduit ( Foundation/Conduit.hs, dist/dist-sandbox-dcd36517/build/Foundation/Conduit.p_o )
+Running Haddock for foundation-0.0.6...
+Preprocessing library foundation-0.0.6...
+
+Foundation/Math/Trigonometry.hs:7:1: warning: [-Wunused-imports]
+    The import of ‘Foundation.Numerical’ is redundant
+      except perhaps to import instances from ‘Foundation.Numerical’
+    To import instances alone, use: import Foundation.Numerical()
+Haddock coverage:
+ 100% (  4 /  4) in 'Foundation.Internal.PrimTypes'
+ 100% (  2 /  2) in 'Foundation.Internal.Identity'
+  50% (  1 /  2) in 'Foundation.Internal.CallStack'
+  Missing documentation for:
+    Module header
+  67% (  2 /  3) in 'Foundation.Numerical.Primitives'
+  Missing documentation for:
+    Module header
+  57% (  8 / 14) in 'Foundation.Internal.Primitive'
+  Missing documentation for:
+    pinned (Foundation/Internal/Primitive.hs:44)
+    unpinned (Foundation/Internal/Primitive.hs:47)
+    isPinned (Foundation/Internal/Primitive.hs:40)
+    compatGetSizeofMutableByteArray# (Foundation/Internal/Primitive.hs:112)
+    compatShrinkMutableByteArray# (Foundation/Internal/Primitive.hs:120)
+    compatResizeMutableByteArray# (Foundation/Internal/Primitive.hs:133)
+ 100% (  1 /  1) in 'Foundation.String.Internal'
+   0% (  0 /  2) in 'Foundation.System.Bindings.Hs'
+  Missing documentation for:
+    Module header
+    sysHsCoreGetErrno (Foundation/System/Bindings/Hs.hs:7)
+   0% (  0 / 11) in 'Foundation.System.Bindings.PosixDef'
+  Missing documentation for:
+    Module header
+    CErrno (Foundation/System/Bindings/PosixDef.hsc:18)
+    CFd (Foundation/System/Bindings/PosixDef.hsc:19)
+    CMemProtFlags (Foundation/System/Bindings/PosixDef.hsc:20)
+    CMemMappingFlags (Foundation/System/Bindings/PosixDef.hsc:21)
+    CMemAdvice (Foundation/System/Bindings/PosixDef.hsc:22)
+    CMemSyncFlags (Foundation/System/Bindings/PosixDef.hsc:23)
+    CSysconfName (Foundation/System/Bindings/PosixDef.hsc:24)
+    COpenFlags (Foundation/System/Bindings/PosixDef.hsc:25)
+    COff
+    CMode
+  75% (  3 /  4) in 'Foundation.Primitive.Base16'
+  Missing documentation for:
+    Module header
+  14% (  1 /  7) in 'Foundation.Strict'
+  Missing documentation for:
+    strict1 (Foundation/Strict.hs:20)
+    strict2 (Foundation/Strict.hs:23)
+    strict3 (Foundation/Strict.hs:26)
+    strict4 (Foundation/Strict.hs:29)
+    strict5 (Foundation/Strict.hs:32)
+    strict6 (Foundation/Strict.hs:35)
+  50% (  1 /  2) in 'Foundation.Monad.MonadIO'
+  Missing documentation for:
+    Module header
+  50% (  1 /  2) in 'Foundation.Internal.Natural'
+  Missing documentation for:
+    Module header
+ 100% (  4 /  4) in 'Foundation.Internal.NumLiteral'
+ 100% (  2 /  2) in 'Foundation.Class.Bifunctor'
+ 100% (  3 /  3) in 'Foundation.Internal.Proxy'
+ 100% (  2 /  2) in 'Foundation.Internal.IsList'
+  94% ( 64 / 68) in 'Foundation.Internal.Base'
+  Missing documentation for:
+    Ordering
+    Bool
+    FP32 (Foundation/Internal/Base.hs:96)
+    FP64 (Foundation/Internal/Base.hs:97)
+  80% (  8 / 10) in 'Foundation.Partial'
+  Missing documentation for:
+    fromLeft (Foundation/Partial.hs:76)
+    fromRight (Foundation/Partial.hs:69)
+  67% (  2 /  3) in 'Foundation.Numerical.Number'
+  Missing documentation for:
+    Module header
+  50% (  1 /  2) in 'Foundation.Numerical.Additive'
+  Missing documentation for:
+    Module header
+  50% (  1 /  2) in 'Foundation.Numerical.Subtractive'
+  Missing documentation for:
+    Module header
+  60% (  3 /  5) in 'Foundation.Numerical.Multiplicative'
+  Missing documentation for:
+    Module header
+    recip (Foundation/Numerical/Multiplicative.hs:150)
+  50% (  6 / 12) in 'Foundation.Internal.Types'
+  Missing documentation for:
+    offsetOfE (Foundation/Internal/Types.hs:70)
+    offsetPlusE (Foundation/Internal/Types.hs:73)
+    offsetMinusE (Foundation/Internal/Types.hs:76)
+    offsetRecast (Foundation/Internal/Types.hs:79)
+    +. (Foundation/Internal/Types.hs:67)
+    sizeOfE (Foundation/Internal/Types.hs:116)
+  50% (  1 /  2) in 'Foundation.Numerical.Floating'
+  Missing documentation for:
+    Module header
+  85% ( 11 / 13) in 'Foundation.Numerical'
+  Missing documentation for:
+    recip (Foundation/Numerical/Multiplicative.hs:150)
+    IntegralRounding (Foundation/Numerical.hs:82)
+  50% (  3 /  6) in 'Foundation.Array.Common'
+  Missing documentation for:
+    InvalidRecast (Foundation/Array/Common.hs:43)
+    RecastSourceSize (Foundation/Array/Common.hs:38)
+    RecastDestinationSize (Foundation/Array/Common.hs:40)
+  83% (  5 /  6) in 'Foundation.Bits'
+  Missing documentation for:
+    Module header
+ 100% (  2 /  2) in 'Foundation.Convertible'
+ 100% (  8 /  8) in 'Foundation.Primitive.Monad'
+  89% (  8 /  9) in 'Foundation.Primitive.FinalPtr'
+  Missing documentation for:
+    withFinalPtrNoTouch (Foundation/Primitive/FinalPtr.hs:72)
+ 100% (  7 /  7) in 'Foundation.VFS.Path'
+  29% (  2 /  7) in 'Foundation.VFS.URI'
+  Missing documentation for:
+    URISchema (Foundation/VFS/URI.hs:27)
+    URIAuthority (Foundation/VFS/URI.hs:28)
+    URIQuery (Foundation/VFS/URI.hs:29)
+    URIFragment (Foundation/VFS/URI.hs:30)
+    URIPath (Foundation/VFS/URI.hs:31)
+  50% (  1 /  2) in 'Foundation.Math.Trigonometry'
+  Missing documentation for:
+    Module header
+ 100% (  2 /  2) in 'Foundation.Collection.Keyed'
+  33% (  3 /  9) in 'Foundation.Primitive.IntegralConv'
+  Missing documentation for:
+    Module header
+    intToInt64 (Foundation/Primitive/IntegralConv.hs:228)
+    wordToWord64 (Foundation/Primitive/IntegralConv.hs:235)
+    word64ToWord32s (Foundation/Primitive/IntegralConv.hs:256)
+    word64ToWord (Foundation/Primitive/IntegralConv.hs:242)
+    wordToChar (Foundation/Primitive/IntegralConv.hs:263)
+  80% (  4 /  5) in 'Foundation.Monad.Exception'
+  Missing documentation for:
+    Module header
+  50% (  1 /  2) in 'Foundation.Monad.Transformer'
+  Missing documentation for:
+    Module header
+  88% (  7 /  8) in 'Foundation.Monad'
+  Missing documentation for:
+    Module header
+  62% ( 10 / 16) in 'Foundation.Conduit.Internal'
+  Missing documentation for:
+    Module header
+    ZipSink (Foundation/Conduit/Internal.hs:252)
+    ResourceT (Foundation/Conduit/Internal.hs:298)
+    MonadResource (Foundation/Conduit/Internal.hs:385)
+    runResourceT (Foundation/Conduit/Internal.hs:339)
+    bracketConduit (Foundation/Conduit/Internal.hs:175)
+  29% (  2 /  7) in 'Foundation.System.Bindings.Network'
+  Missing documentation for:
+    getHErrno (Foundation/System/Bindings/Network.hsc:44)
+    herr_HostNotFound (Foundation/System/Bindings/Network.hsc:27)
+    herr_NoData (Foundation/System/Bindings/Network.hsc:27)
+    herr_NoRecovery (Foundation/System/Bindings/Network.hsc:27)
+    herr_TryAgain (Foundation/System/Bindings/Network.hsc:27)
+  50% (  1 /  2) in 'Foundation.System.Entropy.Common'
+  Missing documentation for:
+    EntropySystemMissing (Foundation/System/Entropy/Common.hs:17)
+  33% (  2 /  6) in 'Foundation.System.Entropy.Unix'
+  Missing documentation for:
+    EntropyCtx (Foundation/System/Entropy/Unix.hs:29)
+    entropyOpen (Foundation/System/Entropy/Unix.hs:33)
+    entropyClose (Foundation/System/Entropy/Unix.hs:49)
+    entropyMaximumSize (Foundation/System/Entropy/Unix.hs:53)
+   1% (  1 /134) in 'Foundation.System.Bindings.Posix'
+  Missing documentation for:
+    CDir (Foundation/System/Bindings/Posix.hsc:29)
+    CDirent (Foundation/System/Bindings/Posix.hsc:30)
+    sysPosix_E2BIG (Foundation/System/Bindings/Posix.hsc:32)
+    sysPosix_EACCES (Foundation/System/Bindings/Posix.hsc:32)
+    sysPosix_EADDRINUSE (Foundation/System/Bindings/Posix.hsc:32)
+    sysPosix_EADDRNOTAVAIL (Foundation/System/Bindings/Posix.hsc:32)
+    sysPosix_EAFNOSUPPORT (Foundation/System/Bindings/Posix.hsc:32)
+    sysPosix_EAGAIN (Foundation/System/Bindings/Posix.hsc:32)
+    sysPosix_EALREADY (Foundation/System/Bindings/Posix.hsc:32)
+    sysPosix_EBADF (Foundation/System/Bindings/Posix.hsc:32)
+    sysPosix_EBUSY (Foundation/System/Bindings/Posix.hsc:32)
+    sysPosix_ECANCELED (Foundation/System/Bindings/Posix.hsc:32)
+    sysPosix_ECHILD (Foundation/System/Bindings/Posix.hsc:32)
+    sysPosix_ECONNABORTED (Foundation/System/Bindings/Posix.hsc:32)
+    sysPosix_ECONNREFUSED (Foundation/System/Bindings/Posix.hsc:32)
+    sysPosix_ECONNRESET (Foundation/System/Bindings/Posix.hsc:32)
+    sysPosix_EDEADLK (Foundation/System/Bindings/Posix.hsc:32)
+    sysPosix_EDESTADDRREQ (Foundation/System/Bindings/Posix.hsc:32)
+    sysPosix_EDOM (Foundation/System/Bindings/Posix.hsc:32)
+    sysPosix_EDQUOT (Foundation/System/Bindings/Posix.hsc:32)
+    sysPosix_EEXIST (Foundation/System/Bindings/Posix.hsc:32)
+    sysPosix_EFAULT (Foundation/System/Bindings/Posix.hsc:32)
+    sysPosix_EFBIG (Foundation/System/Bindings/Posix.hsc:32)
+    sysPosix_EHOSTUNREACH (Foundation/System/Bindings/Posix.hsc:32)
+    sysPosix_EIDRM (Foundation/System/Bindings/Posix.hsc:32)
+    sysPosix_EILSEQ (Foundation/System/Bindings/Posix.hsc:32)
+    sysPosix_EINPROGRESS (Foundation/System/Bindings/Posix.hsc:32)
+    sysPosix_EINTR (Foundation/System/Bindings/Posix.hsc:32)
+    sysPosix_EINVAL (Foundation/System/Bindings/Posix.hsc:32)
+    sysPosix_EIO (Foundation/System/Bindings/Posix.hsc:32)
+    sysPosix_EISCONN (Foundation/System/Bindings/Posix.hsc:32)
+    sysPosix_EISDIR (Foundation/System/Bindings/Posix.hsc:32)
+    sysPosix_ELOOP (Foundation/System/Bindings/Posix.hsc:32)
+    sysPosix_EMFILE (Foundation/System/Bindings/Posix.hsc:32)
+    sysPosix_EMLINK (Foundation/System/Bindings/Posix.hsc:32)
+    sysPosix_EMSGSIZE (Foundation/System/Bindings/Posix.hsc:32)
+    sysPosix_ENAMETOOLONG (Foundation/System/Bindings/Posix.hsc:32)
+    sysPosix_ENETDOWN (Foundation/System/Bindings/Posix.hsc:32)
+    sysPosix_ENETRESET (Foundation/System/Bindings/Posix.hsc:32)
+    sysPosix_ENETUNREACH (Foundation/System/Bindings/Posix.hsc:32)
+    sysPosix_ENFILE (Foundation/System/Bindings/Posix.hsc:32)
+    sysPosix_ENOBUFS (Foundation/System/Bindings/Posix.hsc:32)
+    sysPosix_ENODEV (Foundation/System/Bindings/Posix.hsc:32)
+    sysPosix_ENOENT (Foundation/System/Bindings/Posix.hsc:32)
+    sysPosix_ENOEXEC (Foundation/System/Bindings/Posix.hsc:32)
+    sysPosix_ENOLCK (Foundation/System/Bindings/Posix.hsc:32)
+    sysPosix_ENOMEM (Foundation/System/Bindings/Posix.hsc:32)
+    sysPosix_ENOMSG (Foundation/System/Bindings/Posix.hsc:32)
+    sysPosix_ENOPROTOOPT (Foundation/System/Bindings/Posix.hsc:32)
+    sysPosix_ENOSPC (Foundation/System/Bindings/Posix.hsc:32)
+    sysPosix_ENOSYS (Foundation/System/Bindings/Posix.hsc:32)
+    sysPosix_ENOTCONN (Foundation/System/Bindings/Posix.hsc:32)
+    sysPosix_ENOTDIR (Foundation/System/Bindings/Posix.hsc:32)
+    sysPosix_ENOTEMPTY (Foundation/System/Bindings/Posix.hsc:32)
+    sysPosix_ENOTSOCK (Foundation/System/Bindings/Posix.hsc:32)
+    sysPosix_ENOTSUP (Foundation/System/Bindings/Posix.hsc:32)
+    sysPosix_ENOTTY (Foundation/System/Bindings/Posix.hsc:32)
+    sysPosix_ENXIO (Foundation/System/Bindings/Posix.hsc:32)
+    sysPosix_EOPNOTSUPP (Foundation/System/Bindings/Posix.hsc:32)
+    sysPosix_EOVERFLOW (Foundation/System/Bindings/Posix.hsc:32)
+    sysPosix_EPERM (Foundation/System/Bindings/Posix.hsc:32)
+    sysPosix_EPIPE (Foundation/System/Bindings/Posix.hsc:32)
+    sysPosix_EPROTONOSUPPORT (Foundation/System/Bindings/Posix.hsc:32)
+    sysPosix_EPROTOTYPE (Foundation/System/Bindings/Posix.hsc:32)
+    sysPosix_ERANGE (Foundation/System/Bindings/Posix.hsc:32)
+    sysPosix_EROFS (Foundation/System/Bindings/Posix.hsc:32)
+    sysPosix_ESPIPE (Foundation/System/Bindings/Posix.hsc:32)
+    sysPosix_ESRCH (Foundation/System/Bindings/Posix.hsc:32)
+    sysPosix_ESTALE (Foundation/System/Bindings/Posix.hsc:32)
+    sysPosix_ETIMEDOUT (Foundation/System/Bindings/Posix.hsc:32)
+    sysPosix_ETXTBSY (Foundation/System/Bindings/Posix.hsc:32)
+    sysPosix_EWOULDBLOCK (Foundation/System/Bindings/Posix.hsc:32)
+    sysPosix_EXDEV (Foundation/System/Bindings/Posix.hsc:32)
+    sysPosix_ENODATA (Foundation/System/Bindings/Posix.hsc:176)
+    sysPosix_ENOSR (Foundation/System/Bindings/Posix.hsc:181)
+    sysPosix_ENOSTR (Foundation/System/Bindings/Posix.hsc:186)
+    sysPosix_ETIME (Foundation/System/Bindings/Posix.hsc:191)
+    sysPosix_EBADMSG (Foundation/System/Bindings/Posix.hsc:196)
+    sysPosix_EMULTIHOP (Foundation/System/Bindings/Posix.hsc:201)
+    sysPosix_ENOLINK (Foundation/System/Bindings/Posix.hsc:206)
+    sysPosix_ENOTRECOVERABLE (Foundation/System/Bindings/Posix.hsc:211)
+    sysPosix_EOWNERDEAD (Foundation/System/Bindings/Posix.hsc:216)
+    sysPosix_EPROTO (Foundation/System/Bindings/Posix.hsc:221)
+    sysPosix_O_RDONLY (Foundation/System/Bindings/Posix.hsc:225)
+    sysPosix_O_WRONLY (Foundation/System/Bindings/Posix.hsc:225)
+    sysPosix_O_RDWR (Foundation/System/Bindings/Posix.hsc:225)
+    sysPosix_O_NONBLOCK (Foundation/System/Bindings/Posix.hsc:225)
+    sysPosix_O_APPEND (Foundation/System/Bindings/Posix.hsc:225)
+    sysPosix_O_CREAT (Foundation/System/Bindings/Posix.hsc:225)
+    sysPosix_O_TRUNC (Foundation/System/Bindings/Posix.hsc:225)
+    sysPosix_O_EXCL (Foundation/System/Bindings/Posix.hsc:225)
+    sysPosix_O_NOFOLLOW (Foundation/System/Bindings/Posix.hsc:225)
+    sysPosix_O_CLOEXEC (Foundation/System/Bindings/Posix.hsc:225)
+    sysPosix_PROT_NONE (Foundation/System/Bindings/Posix.hsc:246)
+    sysPosix_PROT_READ (Foundation/System/Bindings/Posix.hsc:246)
+    sysPosix_PROT_WRITE (Foundation/System/Bindings/Posix.hsc:246)
+    sysPosix_PROT_EXEC (Foundation/System/Bindings/Posix.hsc:246)
+    sysPosix_MAP_SHARED (Foundation/System/Bindings/Posix.hsc:255)
+    sysPosix_MAP_PRIVATE (Foundation/System/Bindings/Posix.hsc:255)
+    sysPosix_MAP_FIXED (Foundation/System/Bindings/Posix.hsc:255)
+    sysPosix_MAP_ANONYMOUS (Foundation/System/Bindings/Posix.hsc:255)
+    sysPosix_MADV_NORMAL (Foundation/System/Bindings/Posix.hsc:268)
+    sysPosix_MADV_RANDOM (Foundation/System/Bindings/Posix.hsc:268)
+    sysPosix_MADV_SEQUENTIAL (Foundation/System/Bindings/Posix.hsc:268)
+    sysPosix_MADV_WILLNEED (Foundation/System/Bindings/Posix.hsc:268)
+    sysPosix_MADV_DONTNEED (Foundation/System/Bindings/Posix.hsc:268)
+    sysPosix_MS_ASYNC (Foundation/System/Bindings/Posix.hsc:287)
+    sysPosix_MS_SYNC (Foundation/System/Bindings/Posix.hsc:287)
+    sysPosix_MS_INVALIDATE (Foundation/System/Bindings/Posix.hsc:287)
+    sysPosixMmap (Foundation/System/Bindings/Posix.hsc:294)
+    sysPosixMunmap (Foundation/System/Bindings/Posix.hsc:297)
+    sysPosixMadvise (Foundation/System/Bindings/Posix.hsc:301)
+    sysPosixMsync (Foundation/System/Bindings/Posix.hsc:308)
+    sysPosixMprotect (Foundation/System/Bindings/Posix.hsc:311)
+    sysPosixMlock (Foundation/System/Bindings/Posix.hsc:315)
+    sysPosixMunlock (Foundation/System/Bindings/Posix.hsc:323)
+    sysPosix_SC_PAGESIZE (Foundation/System/Bindings/Posix.hsc:330)
+    sysPosixSysconf (Foundation/System/Bindings/Posix.hsc:333)
+    sysPosixOpen (Foundation/System/Bindings/Posix.hsc:338)
+    sysPosixOpenAt (Foundation/System/Bindings/Posix.hsc:340)
+    sysPosixClose (Foundation/System/Bindings/Posix.hsc:342)
+    sysPosixFnctlNoArg (Foundation/System/Bindings/Posix.hsc:345)
+    sysPosixFnctlPtr (Foundation/System/Bindings/Posix.hsc:347)
+    sysPosixFtruncate (Foundation/System/Bindings/Posix.hsc:350)
+    sysPosixOpendir (Foundation/System/Bindings/Posix.hsc:357)
+    sysPosixFdopendir (Foundation/System/Bindings/Posix.hsc:359)
+    sysPosixReaddir (Foundation/System/Bindings/Posix.hsc:361)
+    sysPosixReaddirR (Foundation/System/Bindings/Posix.hsc:363)
+    sysPosixTelldir (Foundation/System/Bindings/Posix.hsc:365)
+    sysPosixSeekdir (Foundation/System/Bindings/Posix.hsc:367)
+    sysPosixRewinddir (Foundation/System/Bindings/Posix.hsc:369)
+    sysPosixClosedir (Foundation/System/Bindings/Posix.hsc:371)
+    sysPosixDirfd (Foundation/System/Bindings/Posix.hsc:373)
+Warning: Foundation.System.Bindings: Could not find documentation for exported module: X
+   0% (  0 /  1) in 'Foundation.System.Bindings'
+  Missing documentation for:
+    Module header
+   0% (  0 /  5) in 'Foundation.System.Bindings.Macos'
+  Missing documentation for:
+    Module header
+    sysMacos_O_SHLOCK (Foundation/System/Bindings/Macos.hsc:12)
+    sysMacos_O_EXLOCK (Foundation/System/Bindings/Macos.hsc:12)
+    sysMacos_O_SYMLINK (Foundation/System/Bindings/Macos.hsc:12)
+    sysMacos_O_EVTONLY (Foundation/System/Bindings/Macos.hsc:12)
+  59% ( 16 / 27) in 'Foundation.Primitive.Nat'
+  Missing documentation for:
+    Module header
+    natValInt (Foundation/Primitive/Nat.hs:53)
+    natValInt8 (Foundation/Primitive/Nat.hs:65)
+    natValInt16 (Foundation/Primitive/Nat.hs:62)
+    natValInt32 (Foundation/Primitive/Nat.hs:59)
+    natValInt64 (Foundation/Primitive/Nat.hs:
+Foundation/Collection/Mappable.hs:69:1: warning: [-Wunused-top-binds]
+    Defined but not used: ‘sequenceA_’
+56)
+    natValWord (Foundation/Primitive/Nat.hs:68)
+    natValWord8 (Foundation/Primitive/Nat.hs:80)
+    natValWord16 (Foundation/Primitive/Nat.hs:77)
+    natValWord32 (Foundation/Primitive/Nat.hs:74)
+    natValWord64 (Foundation/Primitive/Nat.hs:71)
+   3% (  1 / 30) in 'Foundation.List.SList'
+  Missing documentation for:
+    SList (Foundation/List/SList.hs:56)
+    toSList (Foundation/List/SList.hs:58)
+    unSList (Foundation/List/SList.hs:56)
+    length (Foundation/List/SList.hs:78)
+    create (Foundation/List/SList.hs:81)
+    createFrom (Foundation/List/SList.hs:86)
+    empty (Foundation/List/SList.hs:75)
+    singleton (Foundation/List/SList.hs:93)
+    uncons (Foundation/List/SList.hs:68)
+    cons (Foundation/List/SList.hs:72)
+    map (Foundation/List/SList.hs:124)
+    elem (Foundation/List/SList.hs:96)
+    foldl (Foundation/List/SList.hs:127)
+    append (Foundation/List/SList.hs:99)
+    minimum (Foundation/List/SList.hs:105)
+    maximum (Foundation/List/SList.hs:102)
+    head (Foundation/List/SList.hs:108)
+    tail (Foundation/List/SList.hs:112)
+    take (Foundation/List/SList.hs:116)
+    drop (Foundation/List/SList.hs:120)
+    zip (Foundation/List/SList.hs:130)
+    zip3 (Foundation/List/SList.hs:133)
+    zip4 (Foundation/List/SList.hs:139)
+    zip5 (Foundation/List/SList.hs:145)
+    zipWith (Foundation/List/SList.hs:151)
+    zipWith3 (Foundation/List/SList.hs:156)
+    zipWith4 (Foundation/List/SList.hs:166)
+    zipWith5 (Foundation/List/SList.hs:177)
+    replicateM (Foundation/List/SList.hs:65)
+ 100% (  3 /  3) in 'Foundation.Internal.MonadTrans'
+  33% (  1 /  3) in 'Foundation.Boot.Builder'
+  Missing documentation for:
+    Module header
+    Builder (Foundation/Boot/Builder.hs:12)
+  67% (  2 /  3) in 'Foundation.Boot.List'
+  Missing documentation for:
+    Module header
+ 100% (  5 /  5) in 'Foundation.String.UTF8Table'
+  29% (  2 /  7) in 'Foundation.Collection.List'
+  Missing documentation for:
+    revTake (Foundation/Collection/List.hs:33)
+    revDrop (Foundation/Collection/List.hs:38)
+    revSplitAt (Foundation/Collection/List.hs:43)
+    uncons (Foundation/Collection/List.hs:48)
+    unsnoc (Foundation/Collection/List.hs:52)
+  83% (  5 /  6) in 'Foundation.Internal.ByteSwap'
+  Missing documentation for:
+    byteSwap (Foundation/Internal/ByteSwap.hs:76)
+  92% ( 12 / 13) in 'Foundation.Primitive.Endianness'
+  Missing documentation for:
+    Endianness (Foundation/Primitive/Endianness.hs:42)
+  12% (  2 / 16) in 'Foundation.Primitive.Types'
+  Missing documentation for:
+    Module header
+    primBaIndex (Foundation/Primitive/Types.hs:122)
+    primMbaRead (Foundation/Primitive/Types.hs:126)
+    primMbaWrite (Foundation/Primitive/Types.hs:130)
+    primArrayIndex (Foundation/Primitive/Types.hs:134)
+    primMutableArrayRead (Foundation/Primitive/Types.hs:138)
+    primMutableArrayWrite (Foundation/Primitive/Types.hs:142)
+    primOffsetOfE (Foundation/Primitive/Types.hs:494)
+    primOffsetRecast (Foundation/Primitive/Types.hs:485)
+    offsetAsSize (Foundation/Primitive/Types.hs:503)
+    sizeAsOffset (Foundation/Primitive/Types.hs:499)
+    primWordGetByteAndShift (Foundation/Primitive/Types.hs:507)
+    primWord64GetByteAndShift (Foundation/Primitive/Types.hs:512)
+    primWord64GetHiLo (Foundation/Primitive/Types.hs:515)
+  36% ( 16 / 45) in 'Foundation.Array.Boxed'
+  Missing documentation for:
+    empty (Foundation/Array/Boxed.hs:315)
+    length (Foundation/Array/Boxed.hs:318)
+    freeze (Foundation/Array/Boxed.hs:203)
+    singleton (Foundation/Array/Boxed.hs:488)
+    null (Foundation/Array/Boxed.hs:388)
+    take (Foundation/Array/Boxed.hs:391)
+    drop (Foundation/Array/Boxed.hs:399)
+    splitAt (Foundation/Array/Boxed.hs:407)
+    revTake (Foundation/Array/Boxed.hs:416)
+    revDrop (Foundation/Array/Boxed.hs:419)
+    revSplitAt (Foundation/Array/Boxed.hs:422)
+    splitOn (Foundation/Array/Boxed.hs:426)
+    sub (Foundation/Array/Boxed.hs:442)
+    intersperse (Foundation/Array/Boxed.hs:460)
+    span (Foundation/Array/Boxed.hs:477)
+    break (Foundation/Array/Boxed.hs:450)
+    cons (Foundation/Array/Boxed.hs:494)
+    snoc (Foundation/Array/Boxed.hs:505)
+    uncons (Foundation/Array/Boxed.hs:516)
+    unsnoc (Foundation/Array/Boxed.hs:523)
+    sortBy (Foundation/Array/Boxed.hs:540)
+    filter (Foundation/Array/Boxed.hs:575)
+    reverse (Foundation/Array/Boxed.hs:599)
+    find (Foundation/Array/Boxed.hs:530)
+    foldl' (Foundation/Array/Boxed.hs:621)
+    foldr (Foundation/Array/Boxed.hs:613)
+    foldl (Foundation/Array/Boxed.hs:605)
+    builderAppend (Foundation/Array/Boxed.hs:629)
+    builderBuild (Foundation/Array/Boxed.hs:645)
+ 100% (  7 /  7) in 'Foundation.Collection.Mappable'
+ 100% ( 15 / 15) in 'Foundation.Primitive'
+ 100% (  2 /  2) in 'Foundation.Internal.Environment'
+  74% ( 14 / 19) in 'Foundation.Array.Unboxed.Mutable'
+  Missing documentation for:
+    sizeInMutableBytesOfContent (Foundation/Array/Unboxed/Mutable.hs:68)
+    mutableSame (Foundation/Array/Unboxed/Mutable.hs:160)
+    newNative (Foundation/Array/Unboxed/Mutable.hs:167)
+    mutableForeignMem (Foundation/Array/Unboxed/Mutable.hs:174)
+    sub (Foundation/Array/Unboxed/Mutable.hs:211)
+  20% (  1 /  5) in 'Foundation.Array.Unboxed.ByteArray'
+  Missing documentation for:
+    Module header
+    mutableByteArraySet (Foundation/Array/Unboxed/ByteArray.hs:18)
+    mutableByteArraySetBetween (Foundation/Array/Unboxed/ByteArray.hs:25)
+    mutableByteArrayMove (Foundation/Array/Unboxed/ByteArray.hs:35)
+  71% (  5 /  7) in 'Foundation.Primitive.Utils'
+  Missing documentation for:
+    primMutableAddrSlideToStart (Foundation/Primitive/Utils.hs:64)
+    primMutableByteArraySlideToStart (Foundation/Primitive/Utils.hs:60)
+  33% ( 23 / 69) in 'Foundation.Array.Unboxed'
+  Missing documentation for:
+    recast (Foundation/Array/Unboxed.hs:513)
+    unsafeRecast (Foundation/Array/Unboxed.hs:530)
+    lengthSize (Foundation/Array/Unboxed.hs:225)
+    freeze (Foundation/Array/Unboxed.hs:296)
+    empty (Foundation/Array/Unboxed.hs:364)
+    sub (Foundation/Array/Unboxed.hs:635)
+    withPtr (Foundation/Array/Unboxed.hs:489)
+    unsafeFreezeShrink (Foundation/Array/Unboxed.hs:291)
+    freezeShrink (Foundation/Array/Unboxed.hs:303)
+    unsafeSlide (Foundation/Array/Unboxed.hs:309)
+    unsafeUpdate (Foundation/Array/Unboxed.hs:478)
+    unsafeIndexer (Foundation/Array/Unboxed.hs:191)
+    unsafeDewrap (Foundation/Array/Unboxed.hs:200)
+    map (Foundation/Array/Unboxed.hs:730)
+    mapIndex (Foundation/Array/Unboxed.hs:733)
+    findIndex (Foundation/Array/Unboxed.hs:647)
+    null (Foundation/Array/Unboxed.hs:534)
+    take (Foundation/Array/Unboxed.hs:538)
+    drop (Foundation/Array/Unboxed.hs:550)
+    splitAt (Foundation/Array/Unboxed.hs:562)
+    revDrop (Foundation/Array/Unboxed.hs:609)
+    revTake (Foundation/Array/Unboxed.hs:606)
+    revSplitAt (Foundation/Array/Unboxed.hs:612)
+    splitOn (Foundation/Array/Unboxed.hs:616)
+    splitElem (Foundation/Array/Unboxed.hs:576)
+    break (Foundation/Array/Unboxed.hs:661)
+    breakElem (Foundation/Array/Unboxed.hs:685)
+    elem (Foundation/Array/Unboxed.hs:690)
+    intersperse (Foundation/Array/Unboxed.hs:712)
+    span (Foundation/Array/Unboxed.hs:727)
+    cons (Foundation/Array/Unboxed.hs:736)
+    snoc (Foundation/Array/Unboxed.hs:747)
+    uncons (Foundation/Array/Unboxed.hs:758)
+    unsnoc (Foundation/Array/Unboxed.hs:765)
+    find (Foundation/Array/Unboxed.hs:773)
+    sortBy (Foundation/Array/Unboxed.hs:783)
+    filter (Foundation/Array/Unboxed.hs:818)
+    reverse (Foundation/Array/Unboxed.hs:821)
+    foldl (Foundation/Array/Unboxed.hs:849)
+    foldr (Foundation/Array/Unboxed.hs:857)
+    foldl' (Foundation/Array/Unboxed.hs:865)
+    foreignMem (Foundation/Array/Unboxed.hs:209)
+    fromForeignPtr (Foundation/Array/Unboxed.hs:215)
+    builderAppend (Foundation/Array/Unboxed.hs:873)
+    builderBuild (Foundation/Array/Unboxed.hs:889)
+    toHexadecimal (Foundation/Array/Unboxed.hs:908)
+  33% (  2 /  6) in 'Foundation.Array.Internal'
+  Missing documentation for:
+    fromForeignPtr (Foundation/Array/Unboxed.hs:215)
+    withPtr (Foundation/Array/Unboxed.hs:489)
+    recast (Foundation/Array/Unboxed.hs:513)
+    toHexadecimal (Foundation/Array/Unboxed.hs:908)
+  75% (  9 / 12) in 'Foundation.Foreign'
+  Missing documentation for:
+    withFinalPtrNoTouch (Foundation/Primitive/FinalPtr.hs:72)
+    foreignMem (Foundation/Array/Unboxed.hs:209)
+    mutableForeignMem (Foundation/Array/Unboxed/Mutable.hs:174)
+ 100% (  2 /  2) in 'Foundation.Collection.Mutable'
+ 100% (  2 /  2) in 'Foundation.System.Entropy'
+ 100% (  2 /  2) in 'Foundation.String.ModifiedUTF8'
+  67% (  2 /  3) in 'Foundation.String.Encoding.Encoding'
+  Missing documentation for:
+    Encoding (Foundation/String/Encoding/Encoding.hs:26)
+  33% (  1 /  3) in 'Foundation.String.Encoding.ASCII7'
+  Missing documentation for:
+    ASCII7 (Foundation/String/Encoding/ASCII7.hs:48)
+    ASCII7_Invalid (Foundation/String/Encoding/ASCII7.hs:42)
+  33% (  1 /  3) in 'Foundation.String.Encoding.UTF16'
+  Missing documentation for:
+    UTF16 (Foundation/String/Encoding/UTF16.hs:35)
+    UTF16_Invalid (Foundation/String/Encoding/UTF16.hs:29)
+  33% (  1 /  3) in 'Foundation.String.Encoding.UTF32'
+  Missing documentation for:
+    UTF32 (Foundation/String/Encoding/UTF32.hs:27)
+    UTF32_Invalid (Foundation/String/Encoding/UTF32.hs:29)
+  33% (  1 /  3) in 'Foundation.String.Encoding.ISO_8859_1'
+  Missing documentation for:
+    ISO_8859_1 (Foundation/String/Encoding/ISO_8859_1.hs:39)
+    ISO_8859_1_Invalid (Foundation/String/Encoding/ISO_8859_1.hs:34)
+ 100% ( 48 / 48) in 'Foundation.String.UTF8'
+  50% (  1 /  2) in 'Foundation.Internal.Error'
+  Missing documentation for:
+    Module header
+ 100% (  2 /  2) in 'Foundation.Collection.Element'
+  60% (  3 /  5) in 'Foundation.Collection.Buildable'
+  Missing documentation for:
+    Builder (Foundation/Boot/Builder.hs:12)
+    builderLift (Foundation/Collection/Buildable.hs:59)
+ 100% (  2 /  2) in 'Foundation.Collection.Foldable'
+ 100% (  2 /  2) in 'Foundation.Collection.Indexed'
+  50% (  1 /  2) in 'Foundation.Collection.InnerFunctor'
+  Missing documentation for:
+    Module header
+  75% (  6 /  8) in 'Foundation.Collection.Collection'
+  Missing documentation for:
+    getNonEmpty (Foundation/Collection/Collection.hs:41)
+    nonEmptyFmap (Foundation/Collection/Collection.hs:67)
+ 100% (  2 /  2) in 'Foundation.Collection.Sequential'
+  33% (  1 /  3) in 'Foundation.Collection.Zippable'
+  Missing documentation for:
+    BoxedZippable (Foundation/Collection/Zippable.hs:100)
+    Zippable (Foundation/Collection/Zippable.hs:28)
+   0% (  0 /  2) in 'Foundation.Collection.Copy'
+  Missing documentation for:
+    Module header
+    Copy (Foundation/Collection/Copy.hs:9)
+  67% (  2 /  3) in 'Foundation.Monad.Identity'
+  Missing documentation for:
+    runIdentityT (Foundation/Monad/Identity.hs:17)
+  90% (  9 / 10) in 'Foundation.Monad.Base'
+  Missing documentation for:
+    Module header
+  67% (  2 /  3) in 'Foundation.Monad.Reader'
+  Missing documentation for:
+    runReaderT (Foundation/Monad/Reader.hs:15)
+  33% (  1 /  3) in 'Foundation.Monad.State'
+  Missing documentation for:
+    Module header
+    runStateT (Foundation/Monad/State.hs:11)
+  76% ( 19 / 25) in 'Foundation.Collection'
+  Missing documentation for:
+    BoxedZippable (Foundation/Collection/Zippable.hs:100)
+    getNonEmpty (Foundation/Collection/Collection.hs:41)
+    nonEmptyFmap (Foundation/Collection/Collection.hs:67)
+    Zippable (Foundation/Collection/Zippable.hs:28)
+    Builder (Foundation/Boot/Builder.hs:12)
+    Copy (Foundation/Collection/Copy.hs:9)
+  29% (  4 / 14) in 'Foundation.Array.Bitmap'
+  Missing documentation for:
+    Bitmap (Foundation/Array/Bitmap.hs:46)
+    MutableBitmap (Foundation/Array/Bitmap.hs:48)
+    empty (Foundation/Array/Bitmap.hs:257)
+    concat (Foundation/Array/Bitmap.hs:336)
+    read (Foundation/Array/Bitmap.hs:220)
+    unsafeRead (Foundation/Array/Bitmap.hs:206)
+    write (Foundation/Array/Bitmap.hs:212)
+    unsafeWrite (Foundation/Array/Bitmap.hs:198)
+    snoc (Foundation/Array/Bitmap.hs:386)
+    cons (Foundation/Array/Bitmap.hs:383)
+  50% (  1 /  2) in 'Foundation.Array.Chunked.Unboxed'
+  Missing documentation for:
+    ChunkedUArray (Foundation/Array/Chunked/Unboxed.hs:38)
+  67% ( 10 / 15) in 'Foundation.Class.Storable'
+  Missing documentation for:
+    plusPtr (Foundation/Class/Storable.hs:62)
+    peekArray (Foundation/Class/Storable.hs:75)
+    peekArrayEndedBy (Foundation/Class/Storable.hs:86)
+    pokeArray (Foundation/Class/Storable.hs:96)
+    pokeArrayEndedBy (Foundation/Class/Storable.hs:105)
+  55% (  6 / 11) in 'Foundation.String.ASCII'
+  Missing documentation for:
+    create (Foundation/String/ASCII.hs:224)
+    replicate (Foundation/String/ASCII.hs:211)
+    toBytes (Foundation/String/ASCII.hs:60)
+    lines (Foundation/String/ASCII.hs:267)
+    words (Foundation/String/ASCII.hs:270)
+  70% (  7 / 10) in 'Foundation.Array'
+  Missing documentation for:
+    ChunkedUArray (Foundation/Array/Chunked/Unboxed.hs:38)
+    Bitmap (Foundation/Array/Bitmap.hs:46)
+    MutableBitmap (Foundation/Array/Bitmap.hs:48)
+  50% (  1 /  2) in 'Foundation.Hashing.Hasher'
+  Missing documentation for:
+    Module header
+ 100% (  8 /  8) in 'Foundation.Hashing.FNV'
+ 100% (  5 /  5) in 'Foundation.Hashing.SipHash'
+  88% (  7 /  8) in 'Foundation.Random'
+  Missing documentation for:
+    getRandomPrimType (Foundation/Random.hs:86)
+ 100% ( 10 / 10) in 'Foundation.String'
+ 100% (  3 /  3) in 'Foundation.IO.Terminal'
+  82% (  9 / 11) in 'Foundation.VFS.FilePath'
+  Missing documentation for:
+    filePathToString (Foundation/VFS/FilePath.hs:204)
+    extension (Foundation/VFS/FilePath.hs:251)
+  92% ( 11 / 12) in 'Foundation.VFS'
+  Missing documentation for:
+    filePathToString (Foundation/VFS/FilePath.hs:204)
+  92% ( 11 / 12) in 'Foundation.IO.File'
+  Missing documentation for:
+    hPut (Foundation/IO/File.hs:86)
+  92% ( 12 / 13) in 'Foundation.IO'
+  Missing documentation for:
+    hPut (Foundation/IO/File.hs:86)
+  75% (  3 /  4) in 'Foundation.Foreign.MemoryMap.Types'
+  Missing documentation for:
+    FileMapReadF (Foundation/Foreign/MemoryMap/Types.hs:34)
+  94% ( 16 / 17) in 'Foundation.Foreign.MemoryMap.Posix'
+  Missing documentation for:
+    fileMapRead (Foundation/Foreign/MemoryMap/Posix.hsc:246)
+  50% (  2 /  4) in 'Foundation.Foreign.MemoryMap'
+  Missing documentation for:
+    Module header
+    fileMapRead (Foundation/Foreign/MemoryMap/Posix.hsc:246)
+ 100% (  3 /  3) in 'Foundation.IO.FileMap'
+  83% ( 24 / 29) in 'Foundation.Parser'
+  Missing documentation for:
+    ParserError (Foundation/Parser.hs:56)
+    hasMore (Foundation/Parser.hs:192)
+    string (Foundation/Parser.hs:242)
+    Count (Foundation/Parser.hs:312)
+    Condition (Foundation/Parser.hs:340)
+  86% ( 12 / 14) in 'Foundation.System.Info'
+  Missing documentation for:
+    OS (Foundation/System/Info.hs:36)
+    Endianness (Foundation/Primitive/Endianness.hs:42)
+  14% (  1 /  7) in 'Foundation.Check.Gen'
+  Missing documentation for:
+    Module header
+    runGen (Foundation/Check/Gen.hs:54)
+    GenParams (Foundation/Check/Gen.hs:23)
+    genRng (Foundation/Check/Gen.hs:33)
+    genWithRng (Foundation/Check/Gen.hs:74)
+    genWithParams (Foundation/Check/Gen.hs:78)
+  33% (  2 /  6) in 'Foundation.Check.Arbitrary'
+  Missing documentation for:
+    Module header
+    oneof (Foundation/Check/Arbitrary.hs:132)
+    elements (Foundation/Check/Arbitrary.hs:135)
+    between (Foundation/Check/Arbitrary.hs:138)
+  14% (  1 /  7) in 'Foundation.Check.Property'
+  Missing documentation for:
+    Module header
+    Property (Foundation/Check/Property.hs:26)
+    IsProperty (Foundation/Check/Property.hs:14)
+    property (Foundation/Check/Property.hs:15)
+    forAll (Foundation/Check/Property.hs:28)
+    === (Foundation/Check/Property.hs:31)
+  50% (  7 / 14) in 'Foundation.Check'
+  Missing documentation for:
+    Module header
+    oneof (Foundation/Check/Arbitrary.hs:132)
+    elements (Foundation/Check/Arbitrary.hs:135)
+    Test (Foundation/Check.hs:36)
+    Property (Foundation/Check/Property.hs:26)
+    IsProperty (Foundation/Check/Property.hs:14)
+    === (Foundation/Check/Property.hs:31)
+ 100% (  7 /  7) in 'Foundation.Tuple'
+ 100% (  2 /  2) in 'Foundation.Hashing.Hashable'
+ 100% ( 10 / 10) in 'Foundation.Hashing'
+  56% (  5 /  9) in 'Foundation.Network.IPv4'
+  Missing documentation for:
+    fromString
+    toString (Foundation/Network/IPv4.hs:55)
+    fromTuple (Foundation/Network/IPv4.hs:66)
+    toTuple (Foundation/Network/IPv4.hs:80)
+  92% ( 12 / 13) in 'Foundation.Network.IPv6'
+  Missing documentation for:
+    fromString
+ 100% (  5 /  5) in 'Foundation.Network.HostName'
+   0% (  0 /  4) in 'Foundation.UUID'
+  Missing documentation for:
+    Module header
+    UUID (Foundation/UUID.hs:17)
+    nil (Foundation/UUID.hs:57)
+    fromBinary (Foundation/UUID.hs:60)
+ 100% (  2 /  2) in 'Foundation.Tuple.Nth'
+  99% (136 /138) in 'Foundation'
+  Missing documentation for:
+    Ordering
+    Bool
+  53% ( 10 / 19) in 'Foundation.Conduit'
+  Missing documentation for:
+    Module header
+    ResourceT (Foundation/Conduit/Internal.hs:298)
+    ZipSink (Foundation/Conduit/Internal.hs:252)
+    sourceFile (Foundation/Conduit.hs:39)
+    sourceHandle (Foundation/Conduit.hs:45)
+    sinkFile (Foundation/Conduit.hs:59)
+    sinkHandle (Foundation/Conduit.hs:65)
+    sinkList (Foundation/Conduit.hs:75)
+    bracketConduit (Foundation/Conduit/Internal.hs:175)
+Warning: Foundation.Monad: could not find link destinations for:
+    unsafeIndex unsafeRangeSize
+Warning: Foundation.Primitive.Nat: could not find link destinations for:
+    EqNat natSing ~
+Warning: Foundation.List.SList: could not find link destinations for:
+    ~
+Warning: Foundation.Primitive: could not find link destinations for:
+    Size8 byteSwap ~
+Warning: Foundation.Array.Internal: could not find link destinations for:
+    PinnedStatus ~
+Warning: Foundation.Collection: could not find link destinations for:
+    ~ State
+Warning: Foundation.Class.Storable: could not find link destinations for:
+    D:R:URecPtrp0 UAddr uAddr#
+Warning: Foundation.String.ASCII: could not find link destinations for:
+    ~ MutableAsciiString
+Warning: Foundation.Array: could not find link destinations for:
+    ~ Size8
+Warning: Foundation.String: could not find link destinations for:
+    ~
+Warning: Foundation.IO: could not find link destinations for:
+    unsafeIndex unsafeRangeSize
+Warning: Foundation.Parser: could not find link destinations for:
+    Failure Success ~
+Warning: Foundation.Hashing: could not find link destinations for:
+    hashNew hashNewParam hashMix8 hashEnd HashInitParam HashResult hashMix16 hashMix32 hashMix64 hashMixBytes
+Warning: Foundation.Network.IPv4: could not find link destinations for:
+    ~
+Warning: Foundation.Network.IPv6: could not find link destinations for:
+    ~
+Warning: Foundation.Network.HostName: could not find link destinations for:
+    SocketFamily
+Warning: Foundation: could not find link destinations for:
+    FD HandleType Array STArray ~ Id P StateL StateR SingI sing Sing SingKind fromSing DemoteRep D:R:SingMaybeb0 SNothing SJust EqMaybe unsafeIndex unsafeRangeSize EqOrdering D:R:SingBoola0 STrue SFalse EqBool Size8 D:R:URecCharp0 UChar uChar# spr UPrintf hspr EqEither byteSwap D:R:URecWordp0 UWord uWord# D:R:URecIntp0 UInt uInt# D:R:URecFloatp0 UFloat uFloat# D:R:URecDoublep0 UDouble uDouble# Max Min
+Warning: Foundation.Conduit: could not find link destinations for:
+    MonadResource
+Documentation created:
+dist/dist-sandbox-dcd36517/doc/html/foundation/index.html
+Creating package registration file:
+/var/folders/kk/kngh2vtx0v138fhh9rsjgydw0000gn/T/pkgConf-foundation-0.02128236579784558821.6
+Installing library in
+/Users/jordanemedlock/Projects/dlib-hs/.cabal-sandbox/lib/x86_64-osx-ghc-8.0.1/foundation-0.0.6-DglSsU7fra2KLQJgdqXYpz
+Registering foundation-0.0.6...
+cabal: Leaving directory '/var/folders/kk/kngh2vtx0v138fhh9rsjgydw0000gn/T/cabal-tmp-7609/foundation-0.0.6'

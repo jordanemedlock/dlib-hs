@@ -1,0 +1,584 @@
+cabal: Entering directory '/var/folders/kk/kngh2vtx0v138fhh9rsjgydw0000gn/T/cabal-tmp-7606/cryptonite-0.22'
+Configuring cryptonite-0.22...
+Building cryptonite-0.22...
+Preprocessing library cryptonite-0.22...
+[  1 of 116] Compiling Crypto.Internal.Nat ( Crypto/Internal/Nat.hs, dist/dist-sandbox-dcd36517/build/Crypto/Internal/Nat.o )
+[  2 of 116] Compiling Crypto.Internal.CompatPrim ( Crypto/Internal/CompatPrim.hs, dist/dist-sandbox-dcd36517/build/Crypto/Internal/CompatPrim.o )
+[  3 of 116] Compiling Crypto.Random.Entropy.Source ( Crypto/Random/Entropy/Source.hs, dist/dist-sandbox-dcd36517/build/Crypto/Random/Entropy/Source.o )
+[  4 of 116] Compiling Crypto.Random.Entropy.RDRand ( Crypto/Random/Entropy/RDRand.hs, dist/dist-sandbox-dcd36517/build/Crypto/Random/Entropy/RDRand.o )
+[  5 of 116] Compiling Crypto.Random.Entropy.Unix ( Crypto/Random/Entropy/Unix.hs, dist/dist-sandbox-dcd36517/build/Crypto/Random/Entropy/Unix.o )
+[  6 of 116] Compiling Crypto.Internal.Words ( Crypto/Internal/Words.hs, dist/dist-sandbox-dcd36517/build/Crypto/Internal/Words.o )
+[  7 of 116] Compiling Crypto.Random.Entropy.Backend ( Crypto/Random/Entropy/Backend.hs, dist/dist-sandbox-dcd36517/build/Crypto/Random/Entropy/Backend.o )
+[  8 of 116] Compiling Crypto.Random.Entropy.Unsafe ( Crypto/Random/Entropy/Unsafe.hs, dist/dist-sandbox-dcd36517/build/Crypto/Random/Entropy/Unsafe.o )
+[  9 of 116] Compiling Crypto.PubKey.Internal ( Crypto/PubKey/Internal.hs, dist/dist-sandbox-dcd36517/build/Crypto/PubKey/Internal.o )
+[ 10 of 116] Compiling Crypto.Number.Compat ( Crypto/Number/Compat.hs, dist/dist-sandbox-dcd36517/build/Crypto/Number/Compat.o )
+[ 11 of 116] Compiling Crypto.Number.Basic ( Crypto/Number/Basic.hs, dist/dist-sandbox-dcd36517/build/Crypto/Number/Basic.o )
+[ 12 of 116] Compiling Crypto.Number.ModArithmetic ( Crypto/Number/ModArithmetic.hs, dist/dist-sandbox-dcd36517/build/Crypto/Number/ModArithmetic.o )
+[ 13 of 116] Compiling Crypto.Number.Serialize.Internal ( Crypto/Number/Serialize/Internal.hs, dist/dist-sandbox-dcd36517/build/Crypto/Number/Serialize/Internal.o )
+[ 14 of 116] Compiling Crypto.Internal.DeepSeq ( Crypto/Internal/DeepSeq.hs, dist/dist-sandbox-dcd36517/build/Crypto/Internal/DeepSeq.o )
+[ 15 of 116] Compiling Crypto.Internal.Proxy ( Crypto/Internal/Proxy.hs, dist/dist-sandbox-dcd36517/build/Crypto/Internal/Proxy.o )
+[ 16 of 116] Compiling Crypto.Data.Padding ( Crypto/Data/Padding.hs, dist/dist-sandbox-dcd36517/build/Crypto/Data/Padding.o )
+[ 17 of 116] Compiling Crypto.Cipher.DES.Primitive ( Crypto/Cipher/DES/Primitive.hs, dist/dist-sandbox-dcd36517/build/Crypto/Cipher/DES/Primitive.o )
+[ 18 of 116] Compiling Crypto.Internal.Compat ( Crypto/Internal/Compat.hs, dist/dist-sandbox-dcd36517/build/Crypto/Internal/Compat.o )
+[ 19 of 116] Compiling Crypto.Internal.WordArray ( Crypto/Internal/WordArray.hs, dist/dist-sandbox-dcd36517/build/Crypto/Internal/WordArray.o )
+[ 20 of 116] Compiling Crypto.Cipher.Blowfish.Box ( Crypto/Cipher/Blowfish/Box.hs, dist/dist-sandbox-dcd36517/build/Crypto/Cipher/Blowfish/Box.o )
+[ 21 of 116] Compiling Crypto.Internal.ByteArray ( Crypto/Internal/ByteArray.hs, dist/dist-sandbox-dcd36517/build/Crypto/Internal/ByteArray.o )
+[ 22 of 116] Compiling Crypto.Number.Serialize ( Crypto/Number/Serialize.hs, dist/dist-sandbox-dcd36517/build/Crypto/Number/Serialize.o )
+[ 23 of 116] Compiling Crypto.Random.Entropy ( Crypto/Random/Entropy.hs, dist/dist-sandbox-dcd36517/build/Crypto/Random/Entropy.o )
+[ 24 of 116] Compiling Crypto.Random.EntropyPool ( Crypto/Random/EntropyPool.hs, dist/dist-sandbox-dcd36517/build/Crypto/Random/EntropyPool.o )
+[ 25 of 116] Compiling Crypto.Cipher.Types.Utils ( Crypto/Cipher/Types/Utils.hs, dist/dist-sandbox-dcd36517/build/Crypto/Cipher/Types/Utils.o )
+[ 26 of 116] Compiling Crypto.Internal.Imports ( Crypto/Internal/Imports.hs, dist/dist-sandbox-dcd36517/build/Crypto/Internal/Imports.o )
+[ 27 of 116] Compiling Crypto.Cipher.ChaCha ( Crypto/Cipher/ChaCha.hs, dist/dist-sandbox-dcd36517/build/Crypto/Cipher/ChaCha.o )
+[ 28 of 116] Compiling Crypto.Cipher.RC4 ( Crypto/Cipher/RC4.hs, dist/dist-sandbox-dcd36517/build/Crypto/Cipher/RC4.o )
+[ 29 of 116] Compiling Crypto.Cipher.Salsa ( Crypto/Cipher/Salsa.hs, dist/dist-sandbox-dcd36517/build/Crypto/Cipher/Salsa.o )
+[ 30 of 116] Compiling Crypto.Cipher.XSalsa ( Crypto/Cipher/XSalsa.hs, dist/dist-sandbox-dcd36517/build/Crypto/Cipher/XSalsa.o )
+[ 31 of 116] Compiling Crypto.Random.Types ( Crypto/Random/Types.hs, dist/dist-sandbox-dcd36517/build/Crypto/Random/Types.o )
+
+Crypto/Random/Types.hs:38:10: warning: [-Wredundant-constraints]
+    • Redundant constraint: DRG gen
+    • In the instance declaration for ‘Functor (MonadPseudoRandom gen)’
+
+Crypto/Random/Types.hs:60:1: warning: [-Wredundant-constraints]
+    • Redundant constraint: DRG gen
+    • In the type signature for:
+           withDRG :: DRG gen => gen -> MonadPseudoRandom gen a -> (a, gen)
+[ 32 of 116] Compiling Crypto.ECC.Simple.Types ( Crypto/ECC/Simple/Types.hs, dist/dist-sandbox-dcd36517/build/Crypto/ECC/Simple/Types.o )
+[ 33 of 116] Compiling Crypto.Error.Types ( Crypto/Error/Types.hs, dist/dist-sandbox-dcd36517/build/Crypto/Error/Types.o )
+[ 34 of 116] Compiling Crypto.Number.F2m ( Crypto/Number/F2m.hs, dist/dist-sandbox-dcd36517/build/Crypto/Number/F2m.o )
+[ 35 of 116] Compiling Crypto.Number.Generate ( Crypto/Number/Generate.hs, dist/dist-sandbox-dcd36517/build/Crypto/Number/Generate.o )
+[ 36 of 116] Compiling Crypto.Hash.Types ( Crypto/Hash/Types.hs, dist/dist-sandbox-dcd36517/build/Crypto/Hash/Types.o )
+[ 37 of 116] Compiling Crypto.Hash.IO   ( Crypto/Hash/IO.hs, dist/dist-sandbox-dcd36517/build/Crypto/Hash/IO.o )
+[ 38 of 116] Compiling Crypto.Hash.Blake2s ( Crypto/Hash/Blake2s.hs, dist/dist-sandbox-dcd36517/build/Crypto/Hash/Blake2s.o )
+[ 39 of 116] Compiling Crypto.Hash.Blake2sp ( Crypto/Hash/Blake2sp.hs, dist/dist-sandbox-dcd36517/build/Crypto/Hash/Blake2sp.o )
+[ 40 of 116] Compiling Crypto.Hash.Blake2b ( Crypto/Hash/Blake2b.hs, dist/dist-sandbox-dcd36517/build/Crypto/Hash/Blake2b.o )
+[ 41 of 116] Compiling Crypto.Hash.Blake2bp ( Crypto/Hash/Blake2bp.hs, dist/dist-sandbox-dcd36517/build/Crypto/Hash/Blake2bp.o )
+[ 42 of 116] Compiling Crypto.Hash.MD2  ( Crypto/Hash/MD2.hs, dist/dist-sandbox-dcd36517/build/Crypto/Hash/MD2.o )
+[ 43 of 116] Compiling Crypto.Hash.MD4  ( Crypto/Hash/MD4.hs, dist/dist-sandbox-dcd36517/build/Crypto/Hash/MD4.o )
+[ 44 of 116] Compiling Crypto.Hash.MD5  ( Crypto/Hash/MD5.hs, dist/dist-sandbox-dcd36517/build/Crypto/Hash/MD5.o )
+[ 45 of 116] Compiling Crypto.Hash.SHA1 ( Crypto/Hash/SHA1.hs, dist/dist-sandbox-dcd36517/build/Crypto/Hash/SHA1.o )
+[ 46 of 116] Compiling Crypto.Hash.SHA224 ( Crypto/Hash/SHA224.hs, dist/dist-sandbox-dcd36517/build/Crypto/Hash/SHA224.o )
+[ 47 of 116] Compiling Crypto.Hash.SHA256 ( Crypto/Hash/SHA256.hs, dist/dist-sandbox-dcd36517/build/Crypto/Hash/SHA256.o )
+[ 48 of 116] Compiling Crypto.Hash.SHA384 ( Crypto/Hash/SHA384.hs, dist/dist-sandbox-dcd36517/build/Crypto/Hash/SHA384.o )
+[ 49 of 116] Compiling Crypto.Hash.SHA512 ( Crypto/Hash/SHA512.hs, dist/dist-sandbox-dcd36517/build/Crypto/Hash/SHA512.o )
+[ 50 of 116] Compiling Crypto.Hash.SHA512t ( Crypto/Hash/SHA512t.hs, dist/dist-sandbox-dcd36517/build/Crypto/Hash/SHA512t.o )
+[ 51 of 116] Compiling Crypto.Hash.SHA3 ( Crypto/Hash/SHA3.hs, dist/dist-sandbox-dcd36517/build/Crypto/Hash/SHA3.o )
+[ 52 of 116] Compiling Crypto.Hash.Keccak ( Crypto/Hash/Keccak.hs, dist/dist-sandbox-dcd36517/build/Crypto/Hash/Keccak.o )
+[ 53 of 116] Compiling Crypto.Hash.RIPEMD160 ( Crypto/Hash/RIPEMD160.hs, dist/dist-sandbox-dcd36517/build/Crypto/Hash/RIPEMD160.o )
+[ 54 of 116] Compiling Crypto.Hash.Tiger ( Crypto/Hash/Tiger.hs, dist/dist-sandbox-dcd36517/build/Crypto/Hash/Tiger.o )
+[ 55 of 116] Compiling Crypto.Hash.Skein256 ( Crypto/Hash/Skein256.hs, dist/dist-sandbox-dcd36517/build/Crypto/Hash/Skein256.o )
+[ 56 of 116] Compiling Crypto.Hash.Skein512 ( Crypto/Hash/Skein512.hs, dist/dist-sandbox-dcd36517/build/Crypto/Hash/Skein512.o )
+[ 57 of 116] Compiling Crypto.Hash.Whirlpool ( Crypto/Hash/Whirlpool.hs, dist/dist-sandbox-dcd36517/build/Crypto/Hash/Whirlpool.o )
+[ 58 of 116] Compiling Crypto.Hash.SHAKE ( Crypto/Hash/SHAKE.hs, dist/dist-sandbox-dcd36517/build/Crypto/Hash/SHAKE.o )
+
+Crypto/Hash/SHAKE.hs:69:1: warning: [-Wredundant-constraints]
+    • Redundant constraint: IsDivisibleBy8 bitLen
+    • In the type signature for:
+           shakeFinalizeOutput :: (IsDivisibleBy8 bitLen, KnownNat bitLen) =>
+                                  proxy bitLen -> Ptr (Context a) -> Ptr (Digest a) -> IO ()
+
+Crypto/Hash/SHAKE.hs:78:1: warning: [-Wredundant-constraints]
+    • Redundant constraint: IsDivisibleBy8 bitlen
+    • In the type signature for:
+           byteLen :: (KnownNat bitlen, IsDivisibleBy8 bitlen, Num a) =>
+                      proxy bitlen -> a
+[ 59 of 116] Compiling Crypto.Hash.Algorithms ( Crypto/Hash/Algorithms.hs, dist/dist-sandbox-dcd36517/build/Crypto/Hash/Algorithms.o )
+[ 60 of 116] Compiling Crypto.Hash      ( Crypto/Hash.hs, dist/dist-sandbox-dcd36517/build/Crypto/Hash.o )
+[ 61 of 116] Compiling Crypto.Data.AFIS ( Crypto/Data/AFIS.hs, dist/dist-sandbox-dcd36517/build/Crypto/Data/AFIS.o )
+[ 62 of 116] Compiling Crypto.MAC.HMAC  ( Crypto/MAC/HMAC.hs, dist/dist-sandbox-dcd36517/build/Crypto/MAC/HMAC.o )
+[ 63 of 116] Compiling Crypto.KDF.PBKDF2 ( Crypto/KDF/PBKDF2.hs, dist/dist-sandbox-dcd36517/build/Crypto/KDF/PBKDF2.o )
+
+Crypto/KDF/PBKDF2.hs:57:1: warning: [-Wredundant-constraints]
+    • Redundant constraint: ByteArrayAccess password
+    • In the type signature for:
+           generate :: (ByteArrayAccess password, ByteArrayAccess salt,
+                        ByteArray ba) =>
+                       PRF password -> Parameters -> password -> salt -> ba
+[ 64 of 116] Compiling Crypto.KDF.Scrypt ( Crypto/KDF/Scrypt.hs, dist/dist-sandbox-dcd36517/build/Crypto/KDF/Scrypt.o )
+[ 65 of 116] Compiling Crypto.KDF.HKDF  ( Crypto/KDF/HKDF.hs, dist/dist-sandbox-dcd36517/build/Crypto/KDF/HKDF.o )
+[ 66 of 116] Compiling Crypto.OTP       ( Crypto/OTP.hs, dist/dist-sandbox-dcd36517/build/Crypto/OTP.o )
+
+Crypto/OTP.hs:133:1: warning: [-Wredundant-constraints]
+    • Redundant constraint: HashAlgorithm hash
+    • In the type signature for:
+           mkTOTPParams :: HashAlgorithm hash =>
+                           hash
+                           -> OTPTime
+                           -> Word16
+                           -> OTPDigits
+                           -> ClockSkew
+                           -> Either String (TOTPParams hash)
+[ 67 of 116] Compiling Crypto.PubKey.MaskGenFunction ( Crypto/PubKey/MaskGenFunction.hs, dist/dist-sandbox-dcd36517/build/Crypto/PubKey/MaskGenFunction.o )
+[ 68 of 116] Compiling Crypto.PubKey.DSA ( Crypto/PubKey/DSA.hs, dist/dist-sandbox-dcd36517/build/Crypto/PubKey/DSA.o )
+[ 69 of 116] Compiling Crypto.PubKey.ECC.Types ( Crypto/PubKey/ECC/Types.hs, dist/dist-sandbox-dcd36517/build/Crypto/PubKey/ECC/Types.o )
+[ 70 of 116] Compiling Crypto.PubKey.RSA.Types ( Crypto/PubKey/RSA/Types.hs, dist/dist-sandbox-dcd36517/build/Crypto/PubKey/RSA/Types.o )
+[ 71 of 116] Compiling Crypto.PubKey.RSA.Prim ( Crypto/PubKey/RSA/Prim.hs, dist/dist-sandbox-dcd36517/build/Crypto/PubKey/RSA/Prim.o )
+[ 72 of 116] Compiling Crypto.Random.ChaChaDRG ( Crypto/Random/ChaChaDRG.hs, dist/dist-sandbox-dcd36517/build/Crypto/Random/ChaChaDRG.o )
+[ 73 of 116] Compiling Crypto.Random.SystemDRG ( Crypto/Random/SystemDRG.hs, dist/dist-sandbox-dcd36517/build/Crypto/Random/SystemDRG.o )
+[ 74 of 116] Compiling Crypto.Random    ( Crypto/Random.hs, dist/dist-sandbox-dcd36517/build/Crypto/Random.o )
+[ 75 of 116] Compiling Crypto.Random.Probabilistic ( Crypto/Random/Probabilistic.hs, dist/dist-sandbox-dcd36517/build/Crypto/Random/Probabilistic.o )
+[ 76 of 116] Compiling Crypto.PubKey.ECC.Prim ( Crypto/PubKey/ECC/Prim.hs, dist/dist-sandbox-dcd36517/build/Crypto/PubKey/ECC/Prim.o )
+[ 77 of 116] Compiling Crypto.PubKey.ECC.ECDSA ( Crypto/PubKey/ECC/ECDSA.hs, dist/dist-sandbox-dcd36517/build/Crypto/PubKey/ECC/ECDSA.o )
+[ 78 of 116] Compiling Crypto.PubKey.ECC.Generate ( Crypto/PubKey/ECC/Generate.hs, dist/dist-sandbox-dcd36517/build/Crypto/PubKey/ECC/Generate.o )
+[ 79 of 116] Compiling Crypto.Cipher.Types.GF ( Crypto/Cipher/Types/GF.hs, dist/dist-sandbox-dcd36517/build/Crypto/Cipher/Types/GF.o )
+[ 80 of 116] Compiling Crypto.Error     ( Crypto/Error.hs, dist/dist-sandbox-dcd36517/build/Crypto/Error.o )
+[ 81 of 116] Compiling Crypto.Cipher.Blowfish.Primitive ( Crypto/Cipher/Blowfish/Primitive.hs, dist/dist-sandbox-dcd36517/build/Crypto/Cipher/Blowfish/Primitive.o )
+[ 82 of 116] Compiling Crypto.KDF.BCrypt ( Crypto/KDF/BCrypt.hs, dist/dist-sandbox-dcd36517/build/Crypto/KDF/BCrypt.o )
+[ 83 of 116] Compiling Crypto.Cipher.Camellia.Primitive ( Crypto/Cipher/Camellia/Primitive.hs, dist/dist-sandbox-dcd36517/build/Crypto/Cipher/Camellia/Primitive.o )
+[ 84 of 116] Compiling Crypto.MAC.Poly1305 ( Crypto/MAC/Poly1305.hs, dist/dist-sandbox-dcd36517/build/Crypto/MAC/Poly1305.o )
+[ 85 of 116] Compiling Crypto.Cipher.ChaChaPoly1305 ( Crypto/Cipher/ChaChaPoly1305.hs, dist/dist-sandbox-dcd36517/build/Crypto/Cipher/ChaChaPoly1305.o )
+[ 86 of 116] Compiling Crypto.Cipher.Types.Base ( Crypto/Cipher/Types/Base.hs, dist/dist-sandbox-dcd36517/build/Crypto/Cipher/Types/Base.o )
+[ 87 of 116] Compiling Crypto.Cipher.Types.AEAD ( Crypto/Cipher/Types/AEAD.hs, dist/dist-sandbox-dcd36517/build/Crypto/Cipher/Types/AEAD.o )
+[ 88 of 116] Compiling Crypto.Cipher.Types.Block ( Crypto/Cipher/Types/Block.hs, dist/dist-sandbox-dcd36517/build/Crypto/Cipher/Types/Block.o )
+
+Crypto/Cipher/Types/Block.hs:56:10: warning: [-Wredundant-constraints]
+    • Redundant constraint: BlockCipher c
+    • In the instance declaration for ‘ByteArrayAccess (IV c)’
+
+Crypto/Cipher/Types/Block.hs:167:1: warning: [-Wredundant-constraints]
+    • Redundant constraint: BlockCipher c
+    • In the type signature for:
+           ivAdd :: BlockCipher c => IV c -> Int -> IV c
+[ 89 of 116] Compiling Crypto.Cipher.Types.Stream ( Crypto/Cipher/Types/Stream.hs, dist/dist-sandbox-dcd36517/build/Crypto/Cipher/Types/Stream.o )
+[ 90 of 116] Compiling Crypto.Cipher.Types ( Crypto/Cipher/Types.hs, dist/dist-sandbox-dcd36517/build/Crypto/Cipher/Types.o )
+[ 91 of 116] Compiling Crypto.Cipher.AES.Primitive ( Crypto/Cipher/AES/Primitive.hs, dist/dist-sandbox-dcd36517/build/Crypto/Cipher/AES/Primitive.o )
+[ 92 of 116] Compiling Crypto.Cipher.Blowfish ( Crypto/Cipher/Blowfish.hs, dist/dist-sandbox-dcd36517/build/Crypto/Cipher/Blowfish.o )
+[ 93 of 116] Compiling Crypto.Cipher.Camellia ( Crypto/Cipher/Camellia.hs, dist/dist-sandbox-dcd36517/build/Crypto/Cipher/Camellia.o )
+[ 94 of 116] Compiling Crypto.Cipher.DES ( Crypto/Cipher/DES.hs, dist/dist-sandbox-dcd36517/build/Crypto/Cipher/DES.o )
+[ 95 of 116] Compiling Crypto.Cipher.TripleDES ( Crypto/Cipher/TripleDES.hs, dist/dist-sandbox-dcd36517/build/Crypto/Cipher/TripleDES.o )
+[ 96 of 116] Compiling Crypto.MAC.CMAC  ( Crypto/MAC/CMAC.hs, dist/dist-sandbox-dcd36517/build/Crypto/MAC/CMAC.o )
+[ 97 of 116] Compiling Crypto.Tutorial  ( Crypto/Tutorial.hs, dist/dist-sandbox-dcd36517/build/Crypto/Tutorial.o )
+[ 98 of 116] Compiling Crypto.ConstructHash.MiyaguchiPreneel ( Crypto/ConstructHash/MiyaguchiPreneel.hs, dist/dist-sandbox-dcd36517/build/Crypto/ConstructHash/MiyaguchiPreneel.o )
+[ 99 of 116] Compiling Crypto.PubKey.ECC.P256 ( Crypto/PubKey/ECC/P256.hs, dist/dist-sandbox-dcd36517/build/Crypto/PubKey/ECC/P256.o )
+[100 of 116] Compiling Crypto.ECC.Simple.Prim ( Crypto/ECC/Simple/Prim.hs, dist/dist-sandbox-dcd36517/build/Crypto/ECC/Simple/Prim.o )
+[101 of 116] Compiling Crypto.PubKey.Curve25519 ( Crypto/PubKey/Curve25519.hs, dist/dist-sandbox-dcd36517/build/Crypto/PubKey/Curve25519.o )
+[102 of 116] Compiling Crypto.PubKey.Curve448 ( Crypto/PubKey/Curve448.hs, dist/dist-sandbox-dcd36517/build/Crypto/PubKey/Curve448.o )
+[103 of 116] Compiling Crypto.ECC       ( Crypto/ECC.hs, dist/dist-sandbox-dcd36517/build/Crypto/ECC.o )
+[104 of 116] Compiling Crypto.PubKey.ECIES ( Crypto/PubKey/ECIES.hs, dist/dist-sandbox-dcd36517/build/Crypto/PubKey/ECIES.o )
+[105 of 116] Compiling Crypto.PubKey.Ed448 ( Crypto/PubKey/Ed448.hs, dist/dist-sandbox-dcd36517/build/Crypto/PubKey/Ed448.o )
+[106 of 116] Compiling Crypto.Number.Prime ( Crypto/Number/Prime.hs, dist/dist-sandbox-dcd36517/build/Crypto/Number/Prime.o )
+[107 of 116] Compiling Crypto.PubKey.DH ( Crypto/PubKey/DH.hs, dist/dist-sandbox-dcd36517/build/Crypto/PubKey/DH.o )
+[108 of 116] Compiling Crypto.PubKey.ECC.DH ( Crypto/PubKey/ECC/DH.hs, dist/dist-sandbox-dcd36517/build/Crypto/PubKey/ECC/DH.o )
+[109 of 116] Compiling Crypto.PubKey.ElGamal ( Crypto/PubKey/ElGamal.hs, dist/dist-sandbox-dcd36517/build/Crypto/PubKey/ElGamal.o )
+[110 of 116] Compiling Crypto.PubKey.RSA ( Crypto/PubKey/RSA.hs, dist/dist-sandbox-dcd36517/build/Crypto/PubKey/RSA.o )
+[111 of 116] Compiling Crypto.PubKey.RSA.PKCS15 ( Crypto/PubKey/RSA/PKCS15.hs, dist/dist-sandbox-dcd36517/build/Crypto/PubKey/RSA/PKCS15.o )
+[112 of 116] Compiling Crypto.PubKey.RSA.PSS ( Crypto/PubKey/RSA/PSS.hs, dist/dist-sandbox-dcd36517/build/Crypto/PubKey/RSA/PSS.o )
+[113 of 116] Compiling Crypto.PubKey.RSA.OAEP ( Crypto/PubKey/RSA/OAEP.hs, dist/dist-sandbox-dcd36517/build/Crypto/PubKey/RSA/OAEP.o )
+[114 of 116] Compiling Crypto.KDF.Argon2 ( Crypto/KDF/Argon2.hs, dist/dist-sandbox-dcd36517/build/Crypto/KDF/Argon2.o )
+[115 of 116] Compiling Crypto.PubKey.Ed25519 ( Crypto/PubKey/Ed25519.hs, dist/dist-sandbox-dcd36517/build/Crypto/PubKey/Ed25519.o )
+[116 of 116] Compiling Crypto.Cipher.AES ( Crypto/Cipher/AES.hs, dist/dist-sandbox-dcd36517/build/Crypto/Cipher/AES.o )
+[  1 of 116] Compiling Crypto.Internal.Nat ( Crypto/Internal/Nat.hs, dist/dist-sandbox-dcd36517/build/Crypto/Internal/Nat.p_o )
+[  2 of 116] Compiling Crypto.Internal.CompatPrim ( Crypto/Internal/CompatPrim.hs, dist/dist-sandbox-dcd36517/build/Crypto/Internal/CompatPrim.p_o )
+[  3 of 116] Compiling Crypto.Random.Entropy.Source ( Crypto/Random/Entropy/Source.hs, dist/dist-sandbox-dcd36517/build/Crypto/Random/Entropy/Source.p_o )
+[  4 of 116] Compiling Crypto.Random.Entropy.RDRand ( Crypto/Random/Entropy/RDRand.hs, dist/dist-sandbox-dcd36517/build/Crypto/Random/Entropy/RDRand.p_o )
+[  5 of 116] Compiling Crypto.Random.Entropy.Unix ( Crypto/Random/Entropy/Unix.hs, dist/dist-sandbox-dcd36517/build/Crypto/Random/Entropy/Unix.p_o )
+[  6 of 116] Compiling Crypto.Internal.Words ( Crypto/Internal/Words.hs, dist/dist-sandbox-dcd36517/build/Crypto/Internal/Words.p_o )
+[  7 of 116] Compiling Crypto.Random.Entropy.Backend ( Crypto/Random/Entropy/Backend.hs, dist/dist-sandbox-dcd36517/build/Crypto/Random/Entropy/Backend.p_o )
+[  8 of 116] Compiling Crypto.Random.Entropy.Unsafe ( Crypto/Random/Entropy/Unsafe.hs, dist/dist-sandbox-dcd36517/build/Crypto/Random/Entropy/Unsafe.p_o )
+[  9 of 116] Compiling Crypto.PubKey.Internal ( Crypto/PubKey/Internal.hs, dist/dist-sandbox-dcd36517/build/Crypto/PubKey/Internal.p_o )
+[ 10 of 116] Compiling Crypto.Number.Compat ( Crypto/Number/Compat.hs, dist/dist-sandbox-dcd36517/build/Crypto/Number/Compat.p_o )
+[ 11 of 116] Compiling Crypto.Number.Basic ( Crypto/Number/Basic.hs, dist/dist-sandbox-dcd36517/build/Crypto/Number/Basic.p_o )
+[ 12 of 116] Compiling Crypto.Number.ModArithmetic ( Crypto/Number/ModArithmetic.hs, dist/dist-sandbox-dcd36517/build/Crypto/Number/ModArithmetic.p_o )
+[ 13 of 116] Compiling Crypto.Number.Serialize.Internal ( Crypto/Number/Serialize/Internal.hs, dist/dist-sandbox-dcd36517/build/Crypto/Number/Serialize/Internal.p_o )
+[ 14 of 116] Compiling Crypto.Internal.DeepSeq ( Crypto/Internal/DeepSeq.hs, dist/dist-sandbox-dcd36517/build/Crypto/Internal/DeepSeq.p_o )
+[ 15 of 116] Compiling Crypto.Internal.Proxy ( Crypto/Internal/Proxy.hs, dist/dist-sandbox-dcd36517/build/Crypto/Internal/Proxy.p_o )
+[ 16 of 116] Compiling Crypto.Data.Padding ( Crypto/Data/Padding.hs, dist/dist-sandbox-dcd36517/build/Crypto/Data/Padding.p_o )
+[ 17 of 116] Compiling Crypto.Cipher.DES.Primitive ( Crypto/Cipher/DES/Primitive.hs, dist/dist-sandbox-dcd36517/build/Crypto/Cipher/DES/Primitive.p_o )
+[ 18 of 116] Compiling Crypto.Internal.Compat ( Crypto/Internal/Compat.hs, dist/dist-sandbox-dcd36517/build/Crypto/Internal/Compat.p_o )
+[ 19 of 116] Compiling Crypto.Internal.WordArray ( Crypto/Internal/WordArray.hs, dist/dist-sandbox-dcd36517/build/Crypto/Internal/WordArray.p_o )
+[ 20 of 116] Compiling Crypto.Cipher.Blowfish.Box ( Crypto/Cipher/Blowfish/Box.hs, dist/dist-sandbox-dcd36517/build/Crypto/Cipher/Blowfish/Box.p_o )
+[ 21 of 116] Compiling Crypto.Internal.ByteArray ( Crypto/Internal/ByteArray.hs, dist/dist-sandbox-dcd36517/build/Crypto/Internal/ByteArray.p_o )
+[ 22 of 116] Compiling Crypto.Number.Serialize ( Crypto/Number/Serialize.hs, dist/dist-sandbox-dcd36517/build/Crypto/Number/Serialize.p_o )
+[ 23 of 116] Compiling Crypto.Random.Entropy ( Crypto/Random/Entropy.hs, dist/dist-sandbox-dcd36517/build/Crypto/Random/Entropy.p_o )
+[ 24 of 116] Compiling Crypto.Random.EntropyPool ( Crypto/Random/EntropyPool.hs, dist/dist-sandbox-dcd36517/build/Crypto/Random/EntropyPool.p_o )
+[ 25 of 116] Compiling Crypto.Cipher.Types.Utils ( Crypto/Cipher/Types/Utils.hs, dist/dist-sandbox-dcd36517/build/Crypto/Cipher/Types/Utils.p_o )
+[ 26 of 116] Compiling Crypto.Internal.Imports ( Crypto/Internal/Imports.hs, dist/dist-sandbox-dcd36517/build/Crypto/Internal/Imports.p_o )
+[ 27 of 116] Compiling Crypto.Cipher.ChaCha ( Crypto/Cipher/ChaCha.hs, dist/dist-sandbox-dcd36517/build/Crypto/Cipher/ChaCha.p_o )
+[ 28 of 116] Compiling Crypto.Cipher.RC4 ( Crypto/Cipher/RC4.hs, dist/dist-sandbox-dcd36517/build/Crypto/Cipher/RC4.p_o )
+[ 29 of 116] Compiling Crypto.Cipher.Salsa ( Crypto/Cipher/Salsa.hs, dist/dist-sandbox-dcd36517/build/Crypto/Cipher/Salsa.p_o )
+[ 30 of 116] Compiling Crypto.Cipher.XSalsa ( Crypto/Cipher/XSalsa.hs, dist/dist-sandbox-dcd36517/build/Crypto/Cipher/XSalsa.p_o )
+[ 31 of 116] Compiling Crypto.Random.Types ( Crypto/Random/Types.hs, dist/dist-sandbox-dcd36517/build/Crypto/Random/Types.p_o )
+
+Crypto/Random/Types.hs:38:10: warning: [-Wredundant-constraints]
+    • Redundant constraint: DRG gen
+    • In the instance declaration for ‘Functor (MonadPseudoRandom gen)’
+
+Crypto/Random/Types.hs:60:1: warning: [-Wredundant-constraints]
+    • Redundant constraint: DRG gen
+    • In the type signature for:
+           withDRG :: DRG gen => gen -> MonadPseudoRandom gen a -> (a, gen)
+[ 32 of 116] Compiling Crypto.ECC.Simple.Types ( Crypto/ECC/Simple/Types.hs, dist/dist-sandbox-dcd36517/build/Crypto/ECC/Simple/Types.p_o )
+[ 33 of 116] Compiling Crypto.Error.Types ( Crypto/Error/Types.hs, dist/dist-sandbox-dcd36517/build/Crypto/Error/Types.p_o )
+[ 34 of 116] Compiling Crypto.Number.F2m ( Crypto/Number/F2m.hs, dist/dist-sandbox-dcd36517/build/Crypto/Number/F2m.p_o )
+[ 35 of 116] Compiling Crypto.Number.Generate ( Crypto/Number/Generate.hs, dist/dist-sandbox-dcd36517/build/Crypto/Number/Generate.p_o )
+[ 36 of 116] Compiling Crypto.Hash.Types ( Crypto/Hash/Types.hs, dist/dist-sandbox-dcd36517/build/Crypto/Hash/Types.p_o )
+[ 37 of 116] Compiling Crypto.Hash.IO   ( Crypto/Hash/IO.hs, dist/dist-sandbox-dcd36517/build/Crypto/Hash/IO.p_o )
+[ 38 of 116] Compiling Crypto.Hash.Blake2s ( Crypto/Hash/Blake2s.hs, dist/dist-sandbox-dcd36517/build/Crypto/Hash/Blake2s.p_o )
+[ 39 of 116] Compiling Crypto.Hash.Blake2sp ( Crypto/Hash/Blake2sp.hs, dist/dist-sandbox-dcd36517/build/Crypto/Hash/Blake2sp.p_o )
+[ 40 of 116] Compiling Crypto.Hash.Blake2b ( Crypto/Hash/Blake2b.hs, dist/dist-sandbox-dcd36517/build/Crypto/Hash/Blake2b.p_o )
+[ 41 of 116] Compiling Crypto.Hash.Blake2bp ( Crypto/Hash/Blake2bp.hs, dist/dist-sandbox-dcd36517/build/Crypto/Hash/Blake2bp.p_o )
+[ 42 of 116] Compiling Crypto.Hash.MD2  ( Crypto/Hash/MD2.hs, dist/dist-sandbox-dcd36517/build/Crypto/Hash/MD2.p_o )
+[ 43 of 116] Compiling Crypto.Hash.MD4  ( Crypto/Hash/MD4.hs, dist/dist-sandbox-dcd36517/build/Crypto/Hash/MD4.p_o )
+[ 44 of 116] Compiling Crypto.Hash.MD5  ( Crypto/Hash/MD5.hs, dist/dist-sandbox-dcd36517/build/Crypto/Hash/MD5.p_o )
+[ 45 of 116] Compiling Crypto.Hash.SHA1 ( Crypto/Hash/SHA1.hs, dist/dist-sandbox-dcd36517/build/Crypto/Hash/SHA1.p_o )
+[ 46 of 116] Compiling Crypto.Hash.SHA224 ( Crypto/Hash/SHA224.hs, dist/dist-sandbox-dcd36517/build/Crypto/Hash/SHA224.p_o )
+[ 47 of 116] Compiling Crypto.Hash.SHA256 ( Crypto/Hash/SHA256.hs, dist/dist-sandbox-dcd36517/build/Crypto/Hash/SHA256.p_o )
+[ 48 of 116] Compiling Crypto.Hash.SHA384 ( Crypto/Hash/SHA384.hs, dist/dist-sandbox-dcd36517/build/Crypto/Hash/SHA384.p_o )
+[ 49 of 116] Compiling Crypto.Hash.SHA512 ( Crypto/Hash/SHA512.hs, dist/dist-sandbox-dcd36517/build/Crypto/Hash/SHA512.p_o )
+[ 50 of 116] Compiling Crypto.Hash.SHA512t ( Crypto/Hash/SHA512t.hs, dist/dist-sandbox-dcd36517/build/Crypto/Hash/SHA512t.p_o )
+[ 51 of 116] Compiling Crypto.Hash.SHA3 ( Crypto/Hash/SHA3.hs, dist/dist-sandbox-dcd36517/build/Crypto/Hash/SHA3.p_o )
+[ 52 of 116] Compiling Crypto.Hash.Keccak ( Crypto/Hash/Keccak.hs, dist/dist-sandbox-dcd36517/build/Crypto/Hash/Keccak.p_o )
+[ 53 of 116] Compiling Crypto.Hash.RIPEMD160 ( Crypto/Hash/RIPEMD160.hs, dist/dist-sandbox-dcd36517/build/Crypto/Hash/RIPEMD160.p_o )
+[ 54 of 116] Compiling Crypto.Hash.Tiger ( Crypto/Hash/Tiger.hs, dist/dist-sandbox-dcd36517/build/Crypto/Hash/Tiger.p_o )
+[ 55 of 116] Compiling Crypto.Hash.Skein256 ( Crypto/Hash/Skein256.hs, dist/dist-sandbox-dcd36517/build/Crypto/Hash/Skein256.p_o )
+[ 56 of 116] Compiling Crypto.Hash.Skein512 ( Crypto/Hash/Skein512.hs, dist/dist-sandbox-dcd36517/build/Crypto/Hash/Skein512.p_o )
+[ 57 of 116] Compiling Crypto.Hash.Whirlpool ( Crypto/Hash/Whirlpool.hs, dist/dist-sandbox-dcd36517/build/Crypto/Hash/Whirlpool.p_o )
+[ 58 of 116] Compiling Crypto.Hash.SHAKE ( Crypto/Hash/SHAKE.hs, dist/dist-sandbox-dcd36517/build/Crypto/Hash/SHAKE.p_o )
+
+Crypto/Hash/SHAKE.hs:69:1: warning: [-Wredundant-constraints]
+    • Redundant constraint: IsDivisibleBy8 bitLen
+    • In the type signature for:
+           shakeFinalizeOutput :: (IsDivisibleBy8 bitLen, KnownNat bitLen) =>
+                                  proxy bitLen -> Ptr (Context a) -> Ptr (Digest a) -> IO ()
+
+Crypto/Hash/SHAKE.hs:78:1: warning: [-Wredundant-constraints]
+    • Redundant constraint: IsDivisibleBy8 bitlen
+    • In the type signature for:
+           byteLen :: (KnownNat bitlen, IsDivisibleBy8 bitlen, Num a) =>
+                      proxy bitlen -> a
+[ 59 of 116] Compiling Crypto.Hash.Algorithms ( Crypto/Hash/Algorithms.hs, dist/dist-sandbox-dcd36517/build/Crypto/Hash/Algorithms.p_o )
+[ 60 of 116] Compiling Crypto.Hash      ( Crypto/Hash.hs, dist/dist-sandbox-dcd36517/build/Crypto/Hash.p_o )
+[ 61 of 116] Compiling Crypto.Data.AFIS ( Crypto/Data/AFIS.hs, dist/dist-sandbox-dcd36517/build/Crypto/Data/AFIS.p_o )
+[ 62 of 116] Compiling Crypto.MAC.HMAC  ( Crypto/MAC/HMAC.hs, dist/dist-sandbox-dcd36517/build/Crypto/MAC/HMAC.p_o )
+[ 63 of 116] Compiling Crypto.KDF.PBKDF2 ( Crypto/KDF/PBKDF2.hs, dist/dist-sandbox-dcd36517/build/Crypto/KDF/PBKDF2.p_o )
+
+Crypto/KDF/PBKDF2.hs:57:1: warning: [-Wredundant-constraints]
+    • Redundant constraint: ByteArrayAccess password
+    • In the type signature for:
+           generate :: (ByteArrayAccess password, ByteArrayAccess salt,
+                        ByteArray ba) =>
+                       PRF password -> Parameters -> password -> salt -> ba
+[ 64 of 116] Compiling Crypto.KDF.Scrypt ( Crypto/KDF/Scrypt.hs, dist/dist-sandbox-dcd36517/build/Crypto/KDF/Scrypt.p_o )
+[ 65 of 116] Compiling Crypto.KDF.HKDF  ( Crypto/KDF/HKDF.hs, dist/dist-sandbox-dcd36517/build/Crypto/KDF/HKDF.p_o )
+[ 66 of 116] Compiling Crypto.OTP       ( Crypto/OTP.hs, dist/dist-sandbox-dcd36517/build/Crypto/OTP.p_o )
+
+Crypto/OTP.hs:133:1: warning: [-Wredundant-constraints]
+    • Redundant constraint: HashAlgorithm hash
+    • In the type signature for:
+           mkTOTPParams :: HashAlgorithm hash =>
+                           hash
+                           -> OTPTime
+                           -> Word16
+                           -> OTPDigits
+                           -> ClockSkew
+                           -> Either String (TOTPParams hash)
+[ 67 of 116] Compiling Crypto.PubKey.MaskGenFunction ( Crypto/PubKey/MaskGenFunction.hs, dist/dist-sandbox-dcd36517/build/Crypto/PubKey/MaskGenFunction.p_o )
+[ 68 of 116] Compiling Crypto.PubKey.DSA ( Crypto/PubKey/DSA.hs, dist/dist-sandbox-dcd36517/build/Crypto/PubKey/DSA.p_o )
+[ 69 of 116] Compiling Crypto.PubKey.ECC.Types ( Crypto/PubKey/ECC/Types.hs, dist/dist-sandbox-dcd36517/build/Crypto/PubKey/ECC/Types.p_o )
+[ 70 of 116] Compiling Crypto.PubKey.RSA.Types ( Crypto/PubKey/RSA/Types.hs, dist/dist-sandbox-dcd36517/build/Crypto/PubKey/RSA/Types.p_o )
+[ 71 of 116] Compiling Crypto.PubKey.RSA.Prim ( Crypto/PubKey/RSA/Prim.hs, dist/dist-sandbox-dcd36517/build/Crypto/PubKey/RSA/Prim.p_o )
+[ 72 of 116] Compiling Crypto.Random.ChaChaDRG ( Crypto/Random/ChaChaDRG.hs, dist/dist-sandbox-dcd36517/build/Crypto/Random/ChaChaDRG.p_o )
+[ 73 of 116] Compiling Crypto.Random.SystemDRG ( Crypto/Random/SystemDRG.hs, dist/dist-sandbox-dcd36517/build/Crypto/Random/SystemDRG.p_o )
+[ 74 of 116] Compiling Crypto.Random    ( Crypto/Random.hs, dist/dist-sandbox-dcd36517/build/Crypto/Random.p_o )
+[ 75 of 116] Compiling Crypto.Random.Probabilistic ( Crypto/Random/Probabilistic.hs, dist/dist-sandbox-dcd36517/build/Crypto/Random/Probabilistic.p_o )
+[ 76 of 116] Compiling Crypto.PubKey.ECC.Prim ( Crypto/PubKey/ECC/Prim.hs, dist/dist-sandbox-dcd36517/build/Crypto/PubKey/ECC/Prim.p_o )
+[ 77 of 116] Compiling Crypto.PubKey.ECC.ECDSA ( Crypto/PubKey/ECC/ECDSA.hs, dist/dist-sandbox-dcd36517/build/Crypto/PubKey/ECC/ECDSA.p_o )
+[ 78 of 116] Compiling Crypto.PubKey.ECC.Generate ( Crypto/PubKey/ECC/Generate.hs, dist/dist-sandbox-dcd36517/build/Crypto/PubKey/ECC/Generate.p_o )
+[ 79 of 116] Compiling Crypto.Cipher.Types.GF ( Crypto/Cipher/Types/GF.hs, dist/dist-sandbox-dcd36517/build/Crypto/Cipher/Types/GF.p_o )
+[ 80 of 116] Compiling Crypto.Error     ( Crypto/Error.hs, dist/dist-sandbox-dcd36517/build/Crypto/Error.p_o )
+[ 81 of 116] Compiling Crypto.Cipher.Blowfish.Primitive ( Crypto/Cipher/Blowfish/Primitive.hs, dist/dist-sandbox-dcd36517/build/Crypto/Cipher/Blowfish/Primitive.p_o )
+[ 82 of 116] Compiling Crypto.KDF.BCrypt ( Crypto/KDF/BCrypt.hs, dist/dist-sandbox-dcd36517/build/Crypto/KDF/BCrypt.p_o )
+[ 83 of 116] Compiling Crypto.Cipher.Camellia.Primitive ( Crypto/Cipher/Camellia/Primitive.hs, dist/dist-sandbox-dcd36517/build/Crypto/Cipher/Camellia/Primitive.p_o )
+[ 84 of 116] Compiling Crypto.MAC.Poly1305 ( Crypto/MAC/Poly1305.hs, dist/dist-sandbox-dcd36517/build/Crypto/MAC/Poly1305.p_o )
+[ 85 of 116] Compiling Crypto.Cipher.ChaChaPoly1305 ( Crypto/Cipher/ChaChaPoly1305.hs, dist/dist-sandbox-dcd36517/build/Crypto/Cipher/ChaChaPoly1305.p_o )
+[ 86 of 116] Compiling Crypto.Cipher.Types.Base ( Crypto/Cipher/Types/Base.hs, dist/dist-sandbox-dcd36517/build/Crypto/Cipher/Types/Base.p_o )
+[ 87 of 116] Compiling Crypto.Cipher.Types.AEAD ( Crypto/Cipher/Types/AEAD.hs, dist/dist-sandbox-dcd36517/build/Crypto/Cipher/Types/AEAD.p_o )
+[ 88 of 116] Compiling Crypto.Cipher.Types.Block ( Crypto/Cipher/Types/Block.hs, dist/dist-sandbox-dcd36517/build/Crypto/Cipher/Types/Block.p_o )
+
+Crypto/Cipher/Types/Block.hs:56:10: warning: [-Wredundant-constraints]
+    • Redundant constraint: BlockCipher c
+    • In the instance declaration for ‘ByteArrayAccess (IV c)’
+
+Crypto/Cipher/Types/Block.hs:167:1: warning: [-Wredundant-constraints]
+    • Redundant constraint: BlockCipher c
+    • In the type signature for:
+           ivAdd :: BlockCipher c => IV c -> Int -> IV c
+[ 89 of 116] Compiling Crypto.Cipher.Types.Stream ( Crypto/Cipher/Types/Stream.hs, dist/dist-sandbox-dcd36517/build/Crypto/Cipher/Types/Stream.p_o )
+[ 90 of 116] Compiling Crypto.Cipher.Types ( Crypto/Cipher/Types.hs, dist/dist-sandbox-dcd36517/build/Crypto/Cipher/Types.p_o )
+[ 91 of 116] Compiling Crypto.Cipher.AES.Primitive ( Crypto/Cipher/AES/Primitive.hs, dist/dist-sandbox-dcd36517/build/Crypto/Cipher/AES/Primitive.p_o )
+[ 92 of 116] Compiling Crypto.Cipher.Blowfish ( Crypto/Cipher/Blowfish.hs, dist/dist-sandbox-dcd36517/build/Crypto/Cipher/Blowfish.p_o )
+[ 93 of 116] Compiling Crypto.Cipher.Camellia ( Crypto/Cipher/Camellia.hs, dist/dist-sandbox-dcd36517/build/Crypto/Cipher/Camellia.p_o )
+[ 94 of 116] Compiling Crypto.Cipher.DES ( Crypto/Cipher/DES.hs, dist/dist-sandbox-dcd36517/build/Crypto/Cipher/DES.p_o )
+[ 95 of 116] Compiling Crypto.Cipher.TripleDES ( Crypto/Cipher/TripleDES.hs, dist/dist-sandbox-dcd36517/build/Crypto/Cipher/TripleDES.p_o )
+[ 96 of 116] Compiling Crypto.MAC.CMAC  ( Crypto/MAC/CMAC.hs, dist/dist-sandbox-dcd36517/build/Crypto/MAC/CMAC.p_o )
+[ 97 of 116] Compiling Crypto.Tutorial  ( Crypto/Tutorial.hs, dist/dist-sandbox-dcd36517/build/Crypto/Tutorial.p_o )
+[ 98 of 116] Compiling Crypto.ConstructHash.MiyaguchiPreneel ( Crypto/ConstructHash/MiyaguchiPreneel.hs, dist/dist-sandbox-dcd36517/build/Crypto/ConstructHash/MiyaguchiPreneel.p_o )
+[ 99 of 116] Compiling Crypto.PubKey.ECC.P256 ( Crypto/PubKey/ECC/P256.hs, dist/dist-sandbox-dcd36517/build/Crypto/PubKey/ECC/P256.p_o )
+[100 of 116] Compiling Crypto.ECC.Simple.Prim ( Crypto/ECC/Simple/Prim.hs, dist/dist-sandbox-dcd36517/build/Crypto/ECC/Simple/Prim.p_o )
+[101 of 116] Compiling Crypto.PubKey.Curve25519 ( Crypto/PubKey/Curve25519.hs, dist/dist-sandbox-dcd36517/build/Crypto/PubKey/Curve25519.p_o )
+[102 of 116] Compiling Crypto.PubKey.Curve448 ( Crypto/PubKey/Curve448.hs, dist/dist-sandbox-dcd36517/build/Crypto/PubKey/Curve448.p_o )
+[103 of 116] Compiling Crypto.ECC       ( Crypto/ECC.hs, dist/dist-sandbox-dcd36517/build/Crypto/ECC.p_o )
+[104 of 116] Compiling Crypto.PubKey.ECIES ( Crypto/PubKey/ECIES.hs, dist/dist-sandbox-dcd36517/build/Crypto/PubKey/ECIES.p_o )
+[105 of 116] Compiling Crypto.PubKey.Ed448 ( Crypto/PubKey/Ed448.hs, dist/dist-sandbox-dcd36517/build/Crypto/PubKey/Ed448.p_o )
+[106 of 116] Compiling Crypto.Number.Prime ( Crypto/Number/Prime.hs, dist/dist-sandbox-dcd36517/build/Crypto/Number/Prime.p_o )
+[107 of 116] Compiling Crypto.PubKey.DH ( Crypto/PubKey/DH.hs, dist/dist-sandbox-dcd36517/build/Crypto/PubKey/DH.p_o )
+[108 of 116] Compiling Crypto.PubKey.ECC.DH ( Crypto/PubKey/ECC/DH.hs, dist/dist-sandbox-dcd36517/build/Crypto/PubKey/ECC/DH.p_o )
+[109 of 116] Compiling Crypto.PubKey.ElGamal ( Crypto/PubKey/ElGamal.hs, dist/dist-sandbox-dcd36517/build/Crypto/PubKey/ElGamal.p_o )
+[110 of 116] Compiling Crypto.PubKey.RSA ( Crypto/PubKey/RSA.hs, dist/dist-sandbox-dcd36517/build/Crypto/PubKey/RSA.p_o )
+[111 of 116] Compiling Crypto.PubKey.RSA.PKCS15 ( Crypto/PubKey/RSA/PKCS15.hs, dist/dist-sandbox-dcd36517/build/Crypto/PubKey/RSA/PKCS15.p_o )
+[112 of 116] Compiling Crypto.PubKey.RSA.PSS ( Crypto/PubKey/RSA/PSS.hs, dist/dist-sandbox-dcd36517/build/Crypto/PubKey/RSA/PSS.p_o )
+[113 of 116] Compiling Crypto.PubKey.RSA.OAEP ( Crypto/PubKey/RSA/OAEP.hs, dist/dist-sandbox-dcd36517/build/Crypto/PubKey/RSA/OAEP.p_o )
+[114 of 116] Compiling Crypto.KDF.Argon2 ( Crypto/KDF/Argon2.hs, dist/dist-sandbox-dcd36517/build/Crypto/KDF/Argon2.p_o )
+[115 of 116] Compiling Crypto.PubKey.Ed25519 ( Crypto/PubKey/Ed25519.hs, dist/dist-sandbox-dcd36517/build/Crypto/PubKey/Ed25519.p_o )
+[116 of 116] Compiling Crypto.Cipher.AES ( Crypto/Cipher/AES.hs, dist/dist-sandbox-dcd36517/build/Crypto/Cipher/AES.p_o )
+Running Haddock for cryptonite-0.22...
+Preprocessing library cryptonite-0.22...
+
+Crypto/Random/Types.hs:38:10: warning: [-Wredundant-constraints]
+    • Redundant constraint: DRG gen
+    • In the instance declaration for ‘Functor (MonadPseudoRandom gen)’
+
+Crypto/Random/Types.hs:60:1: warning: [-Wredundant-constraints]
+    • Redundant constraint: DRG gen
+    • In the type signature for:
+           withDRG :: DRG gen => gen -> MonadPseudoRandom gen a -> (a, gen)
+
+Crypto/Hash/SHAKE.hs:69:1: warning: [-Wredundant-constraints]
+    • Redundant constraint: IsDivisibleBy8 bitLen
+    • In the type signature for:
+           shakeFinalizeOutput :: (IsDivisibleBy8 bitLen, KnownNat bitLen) =>
+                                  proxy bitLen -> Ptr (Context a) -> Ptr (Digest a) -> IO ()
+
+Crypto/Hash/SHAKE.hs:78:1: warning: [-Wredundant-constraints]
+    • Redundant constraint: IsDivisibleBy8 bitlen
+    • In the type signature for:
+           byteLen :: (KnownNat bitlen, IsDivisibleBy8 bitlen, Num a) =>
+                      proxy bitlen -> a
+
+Crypto/KDF/PBKDF2.hs:57:1: warning: [-Wredundant-constraints]
+    • Redundant constraint: ByteArrayAccess password
+    • In the type signature for:
+           generate :: (ByteArrayAccess password, ByteArrayAccess salt,
+                        ByteArray ba) =>
+                       PRF password -> Parameters -> password -> salt -> ba
+
+Crypto/OTP.hs:133:1: warning: [-Wredundant-constraints]
+    • Redundant constraint: HashAlgorithm hash
+    • In the type signature for:
+           mkTOTPParams :: HashAlgorithm hash =>
+                           hash
+                           -> OTPTime
+                           -> Word16
+                           -> OTPDigits
+                           -> ClockSkew
+                           -> Either String (TOTPParams hash)
+
+Crypto/Cipher/Types/Block.hs:56:10: warning: [-Wredundant-constraints]
+    • Redundant constraint: BlockCipher c
+    • In the instance declaration for ‘ByteArrayAccess (IV c)’
+
+Crypto/Cipher/Types/Block.hs:167:1: warning: [-Wredundant-constraints]
+    • Redundant constraint: BlockCipher c
+    • In the type signature for:
+           ivAdd :: BlockCipher c => IV c -> Int -> IV c
+Haddock coverage:
+   0% (  0 /  2) in 'Crypto.Internal.Nat'
+  Missing documentation for:
+    Module header
+    IsDivisibleBy8 (Crypto/Internal/Nat.hs:101)
+ 100% (  6 /  6) in 'Crypto.Internal.CompatPrim'
+ 100% (  2 /  2) in 'Crypto.Random.Entropy.Source'
+ 100% (  2 /  2) in 'Crypto.Random.Entropy.RDRand'
+ 100% (  3 /  3) in 'Crypto.Random.Entropy.Unix'
+ 100% (  4 /  4) in 'Crypto.Internal.Words'
+ 100% (  4 /  4) in 'Crypto.Random.Entropy.Backend'
+ 100% (  5 /  5) in 'Crypto.Random.Entropy.Unsafe'
+ 100% (  3 /  3) in 'Crypto.PubKey.Internal'
+ 100% ( 14 / 14) in 'Crypto.Number.Compat'
+ 100% (  7 /  7) in 'Crypto.Number.Basic'
+ 100% (  7 /  7) in 'Crypto.Number.ModArithmetic'
+ 100% (  4 /  4) in 'Crypto.Number.Serialize.Internal'
+ 100% (  2 /  2) in 'Crypto.Internal.DeepSeq'
+ 100% (  2 /  2) in 'Crypto.Internal.Proxy'
+ 100% (  4 /  4) in 'Crypto.Data.Padding'
+ 100% (  4 /  4) in 'Crypto.Cipher.DES.Primitive'
+ 100% (  4 /  4) in 'Crypto.Internal.Compat'
+ 100% ( 17 / 17) in 'Crypto.Internal.WordArray'
+ 100% (  2 /  2) in 'Crypto.Cipher.Blowfish.Box'
+ 100% (  4 /  4) in 'Crypto.Internal.ByteArray'
+ 100% (  5 /  5) in 'Crypto.Number.Serialize'
+ 100% (  2 /  2) in 'Crypto.Random.Entropy'
+ 100% (  5 /  5) in 'Crypto.Random.EntropyPool'
+ 100% (  2 /  2) in 'Crypto.Cipher.Types.Utils'
+Warning: Crypto.Internal.Imports: Could not find documentation for exported module: X
+ 100% (  1 /  1) in 'Crypto.Internal.Imports'
+ 100% (  9 /  9) in 'Crypto.Cipher.ChaCha'
+ 100% (  5 /  5) in 'Crypto.Cipher.RC4'
+ 100% (  5 /  5) in 'Crypto.Cipher.Salsa'
+ 100% (  5 /  5) in 'Crypto.Cipher.XSalsa'
+ 100% (  5 /  5) in 'Crypto.Random.Types'
+  16% (  7 / 44) in 'Crypto.ECC.Simple.Types'
+  Missing documentation for:
+    Curve (Crypto/ECC/Simple/Types.hs:63)
+    CurveType (Crypto/ECC/Simple/Types.hs:94)
+    CurveBinaryParam (Crypto/ECC/Simple/Types.hs:88)
+    CurvePrimeParam (Crypto/ECC/Simple/Types.hs:91)
+    SEC_p112r1 (Crypto/ECC/Simple/Types.hs:113)
+    SEC_p112r2 (Crypto/ECC/Simple/Types.hs:114)
+    SEC_p128r1 (Crypto/ECC/Simple/Types.hs:115)
+    SEC_p128r2 (Crypto/ECC/Simple/Types.hs:116)
+    SEC_p160k1 (Crypto/ECC/Simple/Types.hs:117)
+    SEC_p160r1 (Crypto/ECC/Simple/Types.hs:118)
+    SEC_p160r2 (Crypto/ECC/Simple/Types.hs:119)
+    SEC_p192k1 (Crypto/ECC/Simple/Types.hs:120)
+    SEC_p192r1 (Crypto/ECC/Simple/Types.hs:121)
+    SEC_p224k1 (Crypto/ECC/Simple/Types.hs:122)
+    SEC_p224r1 (Crypto/ECC/Simple/Types.hs:123)
+    SEC_p256k1 (Crypto/ECC/Simple/Types.hs:124)
+    SEC_p256r1 (Crypto/ECC/Simple/Types.hs:125)
+    SEC_p384r1 (Crypto/ECC/Simple/Types.hs:126)
+    SEC_p521r1 (Crypto/ECC/Simple/Types.hs:127)
+    SEC_t113r1 (Crypto/ECC/Simple/Types.hs:128)
+    SEC_t113r2 (Crypto/ECC/Simple/Types.hs:129)
+    SEC_t131r1 (Crypto/ECC/Simple/Types.hs:130)
+    SEC_t131r2 (Crypto/ECC/Simple/Types.hs:131)
+    SEC_t163k1 (Crypto/ECC/Simple/Types.hs:132)
+    SEC_t163r1 (Crypto/ECC/Simple/Types.hs:133)
+    SEC_t163r2 (Crypto/ECC/Simple/Types.hs:134)
+    SEC_t193r1 (Crypto/ECC/Simple/Types.hs:135)
+    SEC_t193r2 (Crypto/ECC/Simple/Types.hs:136)
+    SEC_t233k1 (Crypto/ECC/Simple/Types.hs:137)
+    SEC_t233r1 (Crypto/ECC/Simple/Types.hs:138)
+    SEC_t239k1 (Crypto/ECC/Simple/Types.hs:139)
+    SEC_t283k1 (Crypto/ECC/Simple/Types.hs:140)
+    SEC_t283r1 (Crypto/ECC/Simple/Types.hs:141)
+    SEC_t409k1 (Crypto/ECC/Simple/Types.hs:142)
+    SEC_t409r1 (Crypto/ECC/Simple/Types.hs:143)
+    SEC_t571k1 (Crypto/ECC/Simple/Types.hs:144)
+    SEC_t571r1 (Crypto/ECC/Simple/Types.hs:145)
+ 100% (  8 /  8) in 'Crypto.Error.Types'
+ 100% (  9 /  9) in 'Crypto.Number.F2m'
+ 100% (  5 /  5) in 'Crypto.Number.Generate'
+ 100% (  4 /  4) in 'Crypto.Hash.Types'
+ 100% (  8 /  8) in 'Crypto.Hash.IO'
+ 100% (  4 /  4) in 'Crypto.Hash.Blake2s'
+ 100% (  3 /  3) in 'Crypto.Hash.Blake2sp'
+ 100% (  6 /  6) in 'Crypto.Hash.Blake2b'
+ 100% (  2 /  2) in 'Crypto.Hash.Blake2bp'
+ 100% (  2 /  2) in 'Crypto.Hash.MD2'
+ 100% (  2 /  2) in 'Crypto.Hash.MD4'
+ 100% (  2 /  2) in 'Crypto.Hash.MD5'
+ 100% (  2 /  2) in 'Crypto.Hash.SHA1'
+ 100% (  2 /  2) in 'Crypto.Hash.SHA224'
+ 100% (  2 /  2) in 'Crypto.Hash.SHA256'
+ 100% (  2 /  2) in 'Crypto.Hash.SHA384'
+ 100% (  2 /  2) in 'Crypto.Hash.SHA512'
+ 100% (  3 /  3) in 'Crypto.Hash.SHA512t'
+ 100% (  5 /  5) in 'Crypto.Hash.SHA3'
+ 100% (  5 /  5) in 'Crypto.Hash.Keccak'
+ 100% (  2 /  2) in 'Crypto.Hash.RIPEMD160'
+ 100% (  2 /  2) in 'Crypto.Hash.Tiger'
+ 100% (  3 /  3) in 'Crypto.Hash.Skein256'
+ 100% (  5 /  5) in 'Crypto.Hash.Skein512'
+ 100% (  2 /  2) in 'Crypto.Hash.Whirlpool'
+ 100% (  3 /  3) in 'Crypto.Hash.SHAKE'
+ 100% ( 43 / 43) in 'Crypto.Hash.Algorithms'
+ 100% ( 20 / 20) in 'Crypto.Hash'
+ 100% (  3 /  3) in 'Crypto.Data.AFIS'
+ 100% (  9 /  9) in 'Crypto.MAC.HMAC'
+  62% (  5 /  8) in 'Crypto.KDF.PBKDF2'
+  Missing documentation for:
+    fastPBKDF2_SHA1 (Crypto/KDF/PBKDF2.hs:110)
+    fastPBKDF2_SHA256 (Crypto/KDF/PBKDF2.hs:125)
+    fastPBKDF2_SHA512 (Crypto/KDF/PBKDF2.hs:140)
+ 100% (  3 /  3) in 'Crypto.KDF.Scrypt'
+ 100% (  5 /  5) in 'Crypto.KDF.HKDF'
+  75% (  9 / 12) in 'Crypto.OTP'
+  Missing documentation for:
+    hotp (Crypto/OTP.hs:67)
+    TOTPParams (Crypto/OTP.hs:124)
+    ClockSkew (Crypto/OTP.hs:126)
+ 100% (  3 /  3) in 'Crypto.PubKey.MaskGenFunction'
+ 100% ( 19 / 19) in 'Crypto.PubKey.DSA'
+ 100% ( 15 / 15) in 'Crypto.PubKey.ECC.Types'
+ 100% ( 11 / 11) in 'Crypto.PubKey.RSA.Types'
+ 100% (  5 /  5) in 'Crypto.PubKey.RSA.Prim'
+ 100% (  4 /  4) in 'Crypto.Random.ChaChaDRG'
+ 100% (  3 /  3) in 'Crypto.Random.SystemDRG'
+  95% ( 19 / 20) in 'Crypto.Random'
+  Missing documentation for:
+    Seed (Crypto/Random.hs:40)
+ 100% (  2 /  2) in 'Crypto.Random.Probabilistic'
+ 100% (  9 /  9) in 'Crypto.PubKey.ECC.Prim'
+ 100% ( 12 / 12) in 'Crypto.PubKey.ECC.ECDSA'
+ 100% (  3 /  3) in 'Crypto.PubKey.ECC.Generate'
+ 100% (  3 /  3) in 'Crypto.Cipher.Types.GF'
+ 100% (  8 /  8) in 'Crypto.Error'
+ 100% (  6 /  6) in 'Crypto.Cipher.Blowfish.Primitive'
+ 100% (  5 /  5) in 'Crypto.KDF.BCrypt'
+ 100% (  5 /  5) in 'Crypto.Cipher.Camellia.Primitive'
+  92% ( 11 / 12) in 'Crypto.MAC.Poly1305'
+  Missing documentation for:
+    authTag (Crypto/MAC/Poly1305.hs:47)
+ 100% ( 12 / 12) in 'Crypto.Cipher.ChaChaPoly1305'
+ 100% (  6 /  6) in 'Crypto.Cipher.Types.Base'
+ 100% (  9 /  9) in 'Crypto.Cipher.Types.AEAD'
+ 100% ( 19 / 19) in 'Crypto.Cipher.Types.Block'
+ 100% (  2 /  2) in 'Crypto.Cipher.Types.Stream'
+ 100% ( 25 / 25) in 'Crypto.Cipher.Types'
+ 100% ( 27 / 27) in 'Crypto.Cipher.AES.Primitive'
+ 100% (  6 /  6) in 'Crypto.Cipher.Blowfish'
+ 100% (  2 /  2) in 'Crypto.Cipher.Camellia'
+ 100% (  2 /  2) in 'Crypto.Cipher.DES'
+ 100% (  5 /  5) in 'Crypto.Cipher.TripleDES'
+ 100% (  4 /  4) in 'Crypto.MAC.CMAC'
+ 100% (  1 /  1) in 'Crypto.Tutorial'
+  75% (  3 /  4) in 'Crypto.ConstructHash.MiyaguchiPreneel'
+  Missing documentation for:
+    MiyaguchiPreneel (Crypto/ConstructHash/MiyaguchiPreneel.hs:26)
+ 100% ( 27 / 27) in 'Crypto.PubKey.ECC.P256'
+  91% ( 10 / 11) in 'Crypto.ECC.Simple.Prim'
+  Missing documentation for:
+    scalarFromInteger (Crypto/ECC/Simple/Prim.hs:35)
+ 100% ( 12 / 12) in 'Crypto.PubKey.Curve25519'
+ 100% ( 12 / 12) in 'Crypto.PubKey.Curve448'
+  27% (  3 / 11) in 'Crypto.ECC'
+  Missing documentation for:
+    Curve_P384R1 (Crypto/ECC.hs:127)
+    Curve_P521R1 (Crypto/ECC.hs:149)
+    Curve_X25519 (Crypto/ECC.hs:171)
+    Curve_X448 (Crypto/ECC.hs:188)
+    EllipticCurve (Crypto/ECC.hs:51)
+    EllipticCurveDH (Crypto/ECC.hs:74)
+    EllipticCurveArith (Crypto/ECC.hs:83)
+    SharedSecret (Crypto/ECC.hs:48)
+ 100% (  3 /  3) in 'Crypto.PubKey.ECIES'
+ 100% (  2 /  2) in 'Crypto.PubKey.Ed448'
+ 100% ( 10 / 10) in 'Crypto.Number.Prime'
+ 100% ( 10 / 10) in 'Crypto.PubKey.DH'
+ 100% (  8 /  8) in 'Crypto.PubKey.ECC.DH'
+ 100% ( 19 / 19) in 'Crypto.PubKey.ElGamal'
+ 100% (  9 /  9) in 'Crypto.PubKey.RSA'
+ 100% ( 15 / 15) in 'Crypto.PubKey.RSA.PKCS15'
+ 100% (  9 /  9) in 'Crypto.PubKey.RSA.PSS'
+ 100% (  9 /  9) in 'Crypto.PubKey.RSA.OAEP'
+  70% (  7 / 10) in 'Crypto.KDF.Argon2'
+  Missing documentation for:
+    Parallelism (Crypto/KDF/Argon2.hs:69)
+    defaultOptions (Crypto/KDF/Argon2.hs:91)
+    hash (Crypto/KDF/Argon2.hs:100)
+ 100% ( 12 / 12) in 'Crypto.PubKey.Ed25519'
+ 100% (  4 /  4) in 'Crypto.Cipher.AES'
+Warning: Crypto.Hash.IO: could not find link destinations for:
+    IsDivisibleBy8
+Warning: Crypto.Hash.Algorithms: could not find link destinations for:
+    IsDivisibleBy8 hashDigestASN1
+Warning: Crypto.PubKey.RSA.PKCS15: could not find link destinations for:
+    hashDigestASN1
+Documentation created:
+dist/dist-sandbox-dcd36517/doc/html/cryptonite/index.html
+Creating package registration file:
+/var/folders/kk/kngh2vtx0v138fhh9rsjgydw0000gn/T/pkgConf-cryptonite-013564252281899894091.22
+Installing library in
+/Users/jordanemedlock/Projects/dlib-hs/.cabal-sandbox/lib/x86_64-osx-ghc-8.0.1/cryptonite-0.22-AmZuW0lIeNJ4B6asH02m6c
+Registering cryptonite-0.22...
+cabal: Leaving directory '/var/folders/kk/kngh2vtx0v138fhh9rsjgydw0000gn/T/cabal-tmp-7606/cryptonite-0.22'

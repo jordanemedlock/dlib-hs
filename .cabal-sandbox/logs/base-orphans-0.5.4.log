@@ -1,0 +1,21 @@
+cabal: Entering directory '/var/folders/kk/kngh2vtx0v138fhh9rsjgydw0000gn/T/cabal-tmp-7607/base-orphans-0.5.4'
+Configuring base-orphans-0.5.4...
+Building base-orphans-0.5.4...
+Preprocessing library base-orphans-0.5.4...
+[1 of 2] Compiling Data.Orphans.Prelude ( src/Data/Orphans/Prelude.hs, dist/dist-sandbox-dcd36517/build/Data/Orphans/Prelude.o )
+[2 of 2] Compiling Data.Orphans     ( src/Data/Orphans.hs, dist/dist-sandbox-dcd36517/build/Data/Orphans.o )
+[1 of 2] Compiling Data.Orphans.Prelude ( src/Data/Orphans/Prelude.hs, dist/dist-sandbox-dcd36517/build/Data/Orphans/Prelude.p_o )
+[2 of 2] Compiling Data.Orphans     ( src/Data/Orphans.hs, dist/dist-sandbox-dcd36517/build/Data/Orphans.p_o )
+Running Haddock for base-orphans-0.5.4...
+Preprocessing library base-orphans-0.5.4...
+Haddock coverage:
+ 100% (  1 /  1) in 'Data.Orphans.Prelude'
+ 100% (  1 /  1) in 'Data.Orphans'
+Documentation created:
+dist/dist-sandbox-dcd36517/doc/html/base-orphans/index.html
+Creating package registration file:
+/var/folders/kk/kngh2vtx0v138fhh9rsjgydw0000gn/T/pkgConf-base-orphans-0.5144128232716531729.4
+Installing library in
+/Users/jordanemedlock/Projects/dlib-hs/.cabal-sandbox/lib/x86_64-osx-ghc-8.0.1/base-orphans-0.5.4-5IQvrjd7gNP548VkOOyIq6
+Registering base-orphans-0.5.4...
+cabal: Leaving directory '/var/folders/kk/kngh2vtx0v138fhh9rsjgydw0000gn/T/cabal-tmp-7607/base-orphans-0.5.4'

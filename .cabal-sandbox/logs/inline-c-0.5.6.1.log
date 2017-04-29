@@ -1,0 +1,263 @@
+cabal: Entering directory '/var/folders/kk/kngh2vtx0v138fhh9rsjgydw0000gn/T/cabal-tmp-7606/inline-c-0.5.6.1'
+Configuring inline-c-0.5.6.1...
+Building inline-c-0.5.6.1...
+Preprocessing library inline-c-0.5.6.1...
+[1 of 9] Compiling Language.C.Types.Parse ( src/Language/C/Types/Parse.hs, dist/dist-sandbox-dcd36517/build/Language/C/Types/Parse.o )
+
+src/Language/C/Types/Parse.hs:241:1: warning: [-Wredundant-constraints]
+    • Redundant constraint: Monad m
+    • In the type signature for:
+           cIdentStyle :: (TokenParsing m, Monad m) => IdentifierStyle m
+
+src/Language/C/Types/Parse.hs:695:1: warning: [-Wredundant-constraints]
+    • Redundant constraint: Hashable i
+    • In the type signature for:
+           arbitraryCIdentifierFrom :: (Hashable i, QC.Arbitrary i) =>
+                                       ArbitraryContext i -> QC.Gen CIdentifier
+[2 of 9] Compiling Language.C.Inline.HaskellIdentifier ( src/Language/C/Inline/HaskellIdentifier.hs, dist/dist-sandbox-dcd36517/build/Language/C/Inline/HaskellIdentifier.o )
+[3 of 9] Compiling Language.C.Types ( src/Language/C/Types.hs, dist/dist-sandbox-dcd36517/build/Language/C/Types.o )
+[4 of 9] Compiling Language.C.Inline.FunPtr ( src/Language/C/Inline/FunPtr.hs, dist/dist-sandbox-dcd36517/build/Language/C/Inline/FunPtr.o )
+[5 of 9] Compiling Language.C.Inline.Context ( src/Language/C/Inline/Context.hs, dist/dist-sandbox-dcd36517/build/Language/C/Inline/Context.o )
+[6 of 9] Compiling Language.C.Inline.Internal ( src/Language/C/Inline/Internal.hs, dist/dist-sandbox-dcd36517/build/Language/C/Inline/Internal.o )
+
+src/Language/C/Inline/Internal.hs:430:1: warning: [-Wredundant-constraints]
+    • Redundant constraint: Eq a
+    • In the type signature for:
+           fromSomeEq :: (Eq a, Typeable a) => SomeEq -> Maybe a
+
+src/Language/C/Inline/Internal.hs:527:5: warning: [-Wredundant-constraints]
+    • Redundant constraint: Applicative n
+    • In the type signature for:
+           purgeHaskellIdentifiers :: (Applicative n, Monad n) =>
+                                      C.Type HaskellIdentifier -> n (C.Type C.CIdentifier)
+      In an equation for ‘parseTypedC’:
+          parseTypedC antiQs
+            = do { Parser.spaces;
+                   cRetType <- purgeHaskellIdentifiers =<< C.parseType;
+                   void $ Parser.char '{';
+                   .... }
+            where
+                parseBody ::
+                  StateT Int m ([(C.CIdentifier, C.Type C.CIdentifier,
+                                  ParameterType)],
+                                String)
+                parseBody
+                  = do { s <- Parser.manyTill Parser.anyChar
+                              $ Parser.lookAhead (Parser.char '}' <|> Parser.char '$');
+                         .... }
+                parseAntiQuote ::
+                  StateT Int m ([(C.CIdentifier, C.Type C.CIdentifier,
+                                  ParameterType)],
+                                String)
+                parseAntiQuote
+                  = msum
+                      [do { ... } | (antiQId, SomeAntiQuoter antiQ) <- Map.toList antiQs]
+                ....
+[7 of 9] Compiling Language.C.Inline.Unsafe ( src/Language/C/Inline/Unsafe.hs, dist/dist-sandbox-dcd36517/build/Language/C/Inline/Unsafe.o )
+[8 of 9] Compiling Language.C.Inline.Interruptible ( src/Language/C/Inline/Interruptible.hs, dist/dist-sandbox-dcd36517/build/Language/C/Inline/Interruptible.o )
+[9 of 9] Compiling Language.C.Inline ( src/Language/C/Inline.hs, dist/dist-sandbox-dcd36517/build/Language/C/Inline.o )
+[1 of 9] Compiling Language.C.Types.Parse ( src/Language/C/Types/Parse.hs, dist/dist-sandbox-dcd36517/build/Language/C/Types/Parse.p_o )
+
+src/Language/C/Types/Parse.hs:241:1: warning: [-Wredundant-constraints]
+    • Redundant constraint: Monad m
+    • In the type signature for:
+           cIdentStyle :: (TokenParsing m, Monad m) => IdentifierStyle m
+
+src/Language/C/Types/Parse.hs:695:1: warning: [-Wredundant-constraints]
+    • Redundant constraint: Hashable i
+    • In the type signature for:
+           arbitraryCIdentifierFrom :: (Hashable i, QC.Arbitrary i) =>
+                                       ArbitraryContext i -> QC.Gen CIdentifier
+[2 of 9] Compiling Language.C.Inline.HaskellIdentifier ( src/Language/C/Inline/HaskellIdentifier.hs, dist/dist-sandbox-dcd36517/build/Language/C/Inline/HaskellIdentifier.p_o )
+[3 of 9] Compiling Language.C.Types ( src/Language/C/Types.hs, dist/dist-sandbox-dcd36517/build/Language/C/Types.p_o )
+[4 of 9] Compiling Language.C.Inline.FunPtr ( src/Language/C/Inline/FunPtr.hs, dist/dist-sandbox-dcd36517/build/Language/C/Inline/FunPtr.p_o )
+[5 of 9] Compiling Language.C.Inline.Context ( src/Language/C/Inline/Context.hs, dist/dist-sandbox-dcd36517/build/Language/C/Inline/Context.p_o )
+[6 of 9] Compiling Language.C.Inline.Internal ( src/Language/C/Inline/Internal.hs, dist/dist-sandbox-dcd36517/build/Language/C/Inline/Internal.p_o )
+
+src/Language/C/Inline/Internal.hs:430:1: warning: [-Wredundant-constraints]
+    • Redundant constraint: Eq a
+    • In the type signature for:
+           fromSomeEq :: (Eq a, Typeable a) => SomeEq -> Maybe a
+
+src/Language/C/Inline/Internal.hs:527:5: warning: [-Wredundant-constraints]
+    • Redundant constraint: Applicative n
+    • In the type signature for:
+           purgeHaskellIdentifiers :: (Applicative n, Monad n) =>
+                                      C.Type HaskellIdentifier -> n (C.Type C.CIdentifier)
+      In an equation for ‘parseTypedC’:
+          parseTypedC antiQs
+            = do { Parser.spaces;
+                   cRetType <- purgeHaskellIdentifiers =<< C.parseType;
+                   void $ Parser.char '{';
+                   .... }
+            where
+                parseBody ::
+                  StateT Int m ([(C.CIdentifier, C.Type C.CIdentifier,
+                                  ParameterType)],
+                                String)
+                parseBody
+                  = do { s <- Parser.manyTill Parser.anyChar
+                              $ Parser.lookAhead (Parser.char '}' <|> Parser.char '$');
+                         .... }
+                parseAntiQuote ::
+                  StateT Int m ([(C.CIdentifier, C.Type C.CIdentifier,
+                                  ParameterType)],
+                                String)
+                parseAntiQuote
+                  = msum
+                      [do { ... } | (antiQId, SomeAntiQuoter antiQ) <- Map.toList antiQs]
+                ....
+[7 of 9] Compiling Language.C.Inline.Unsafe ( src/Language/C/Inline/Unsafe.hs, dist/dist-sandbox-dcd36517/build/Language/C/Inline/Unsafe.p_o )
+[8 of 9] Compiling Language.C.Inline.Interruptible ( src/Language/C/Inline/Interruptible.hs, dist/dist-sandbox-dcd36517/build/Language/C/Inline/Interruptible.p_o )
+[9 of 9] Compiling Language.C.Inline ( src/Language/C/Inline.hs, dist/dist-sandbox-dcd36517/build/Language/C/Inline.p_o )
+Running Haddock for inline-c-0.5.6.1...
+Preprocessing library inline-c-0.5.6.1...
+
+src/Language/C/Types/Parse.hs:241:1: warning: [-Wredundant-constraints]
+    • Redundant constraint: Monad m
+    • In the type signature for:
+           cIdentStyle :: (TokenParsing m, Monad m) => IdentifierStyle m
+
+src/Language/C/Types/Parse.hs:695:1: warning: [-Wredundant-constraints]
+    • Redundant constraint: Hashable i
+    • In the type signature for:
+           arbitraryCIdentifierFrom :: (Hashable i, QC.Arbitrary i) =>
+                                       ArbitraryContext i -> QC.Gen CIdentifier
+
+src/Language/C/Inline/Internal.hs:430:1: warning: [-Wredundant-constraints]
+    • Redundant constraint: Eq a
+    • In the type signature for:
+           fromSomeEq :: (Eq a, Typeable a) => SomeEq -> Maybe a
+
+src/Language/C/Inline/Internal.hs:527:5: warning: [-Wredundant-constraints]
+    • Redundant constraint: Applicative n
+    • In the type signature for:
+           purgeHaskellIdentifiers :: (Applicative n, Monad n) =>
+                                      C.Type HaskellIdentifier -> n (C.Type C.CIdentifier)
+      In an equation for ‘parseTypedC’:
+          parseTypedC antiQs
+            = do { Parser.spaces;
+                   cRetType <- purgeHaskellIdentifiers =<< C.parseType;
+                   void $ Parser.char '{';
+                   .... }
+            where
+                parseBody ::
+                  StateT Int m ([(C.CIdentifier, C.Type C.CIdentifier,
+                                  ParameterType)],
+                                String)
+                parseBody
+                  = do { s <- Parser.manyTill Parser.anyChar
+                              $ Parser.lookAhead (Parser.char '}' <|> Parser.char '$');
+                         .... }
+                parseAntiQuote ::
+                  StateT Int m ([(C.CIdentifier, C.Type C.CIdentifier,
+                                  ParameterType)],
+                                String)
+                parseAntiQuote
+                  = msum
+                      [do { ... } | (antiQId, SomeAntiQuoter antiQ) <- Map.toList antiQs]
+                ....
+Haddock coverage:
+  29% ( 15 / 52) in 'Language.C.Types.Parse'
+  Missing documentation for:
+    CParserContext (src/Language/C/Types/Parse.hs:121)
+    unCIdentifier (src/Language/C/Types/Parse.hs:131)
+    cIdentifierFromString (src/Language/C/Types/Parse.hs:134)
+    cCParserContext (src/Language/C/Types/Parse.hs:152)
+    identifier_no_lex (src/Language/C/Types/Parse.hs:324)
+    DeclarationSpecifier (src/Language/C/Types/Parse.hs:251)
+    declaration_specifiers (src/Language/C/Types/Parse.hs:258)
+    StorageClassSpecifier (src/Language/C/Types/Parse.hs:266)
+    storage_class_specifier (src/Language/C/Types/Parse.hs:274)
+    TypeSpecifier (src/Language/C/Types/Parse.hs:283)
+    type_specifier (src/Language/C/Types/Parse.hs:298)
+    TypeQualifier (src/Language/C/Types/Parse.hs:358)
+    type_qualifier (src/Language/C/Types/Parse.hs:364)
+    FunctionSpecifier (src/Language/C/Types/Parse.hs:371)
+    function_specifier (src/Language/C/Types/Parse.hs:375)
+    Declarator (src/Language/C/Types/Parse.hs:380)
+    declarator (src/Language/C/Types/Parse.hs:385)
+    DirectDeclarator (src/Language/C/Types/Parse.hs:388)
+    direct_declarator (src/Language/C/Types/Parse.hs:421)
+    ArrayOrProto (src/Language/C/Types/Parse.hs:394)
+    array_or_proto (src/Language/C/Types/Parse.hs:399)
+    ArrayType (src/Language/C/Types/Parse.hs:406)
+    array_type (src/Language/C/Types/Parse.hs:413)
+    Pointer (src/Language/C/Types/Parse.hs:430)
+    pointer (src/Language/C/Types/Parse.hs:434)
+    ParameterDeclaration (src/Language/C/Types/Parse.hs:443)
+    DeclaratorOrAbstractDeclarator (src/Language/C/Types/Parse.hs:448)
+    parameter_declaration (src/Language/C/Types/Parse.hs:453)
+    parameter_list (src/Language/C/Types/Parse.hs:439)
+    AbstractDeclarator (src/Language/C/Types/Parse.hs:464)
+    abstract_declarator (src/Language/C/Types/Parse.hs:469)
+    DirectAbstractDeclarator (src/Language/C/Types/Parse.hs:478)
+    direct_abstract_declarator (src/Language/C/Types/Parse.hs:484)
+    cIdentStart (src/Language/C/Types/Parse.hs:235)
+    cIdentLetter (src/Language/C/Types/Parse.hs:238)
+    cReservedWords (src/Language/C/Types/Parse.hs:223)
+    arbitraryParameterDeclarationWithTypeNames (src/Language/C/Types/Parse.hs:634)
+  43% (  3 /  7) in 'Language.C.Inline.HaskellIdentifier'
+  Missing documentation for:
+    Module header
+    unHaskellIdentifier (src/Language/C/Inline/HaskellIdentifier.hs:40)
+    haskellIdentifierFromString (src/Language/C/Inline/HaskellIdentifier.hs:52)
+    haskellCParserContext (src/Language/C/Inline/HaskellIdentifier.hs:60)
+  33% ( 11 / 33) in 'Language.C.Types'
+  Missing documentation for:
+    unCIdentifier (src/Language/C/Types/Parse.hs:131)
+    cIdentifierFromString (src/Language/C/Types/Parse.hs:134)
+    StorageClassSpecifier (src/Language/C/Types/Parse.hs:266)
+    TypeQualifier (src/Language/C/Types/Parse.hs:358)
+    FunctionSpecifier (src/Language/C/Types/Parse.hs:371)
+    ArrayType (src/Language/C/Types/Parse.hs:406)
+    Specifiers (src/Language/C/Types.hs:100)
+    Type (src/Language/C/Types.hs:112)
+    TypeSpecifier (src/Language/C/Types.hs:85)
+    Sign (src/Language/C/Types.hs:119)
+    ParameterDeclaration (src/Language/C/Types.hs:124)
+    CParserContext (src/Language/C/Types/Parse.hs:121)
+    cCParserContext (src/Language/C/Types/Parse.hs:152)
+    parseParameterDeclaration (src/Language/C/Types.hs:434)
+    parseParameterList (src/Language/C/Types.hs:439)
+    parseIdentifier (src/Language/C/Types.hs:445)
+    parseType (src/Language/C/Types.hs:448)
+    UntangleErr (src/Language/C/Types.hs:132)
+    untangleParameterDeclaration (src/Language/C/Types.hs:141)
+    tangleParameterDeclaration (src/Language/C/Types.hs:280)
+    describeParameterDeclaration (src/Language/C/Types.hs:385)
+    describeType (src/Language/C/Types.hs:392)
+  60% (  3 /  5) in 'Language.C.Inline.FunPtr'
+  Missing documentation for:
+    Module header
+    uniqueFfiImportName (src/Language/C/Inline/FunPtr.hs:65)
+  85% ( 17 / 20) in 'Language.C.Inline.Context'
+  Missing documentation for:
+    typeNamesFromTypesTable (src/Language/C/Inline/Context.hs:274)
+    AntiQuoter (src/Language/C/Inline/Context.hs:97)
+    AntiQuoters (src/Language/C/Inline/Context.hs:132)
+  64% ( 16 / 25) in 'Language.C.Inline.Internal'
+  Missing documentation for:
+    Module header
+    SomeEq (src/Language/C/Inline/Internal.hs:417)
+    toSomeEq (src/Language/C/Inline/Internal.hs:427)
+    fromSomeEq (src/Language/C/Inline/Internal.hs:430)
+    ParameterType (src/Language/C/Inline/Internal.hs:433)
+    ParseTypedC (src/Language/C/Inline/Internal.hs:438)
+    parseTypedC (src/Language/C/Inline/Internal.hs:450)
+    runParserInQ (src/Language/C/Inline/Internal.hs:403)
+    genericQuote (src/Language/C/Inline/Internal.hs:549)
+ 100% (  4 /  4) in 'Language.C.Inline.Unsafe'
+ 100% (  4 /  4) in 'Language.C.Inline.Interruptible'
+  96% ( 27 / 28) in 'Language.C.Inline'
+  Missing documentation for:
+    withPtr_ (src/Language/C/Inline.hs:315)
+Warning: Language.C.Types.Parse: could not find link destinations for:
+    cidentifier_no_lex Anyhow
+Documentation created: dist/dist-sandbox-dcd36517/doc/html/inline-c/index.html
+Creating package registration file:
+/var/folders/kk/kngh2vtx0v138fhh9rsjgydw0000gn/T/pkgConf-inline-c-0.5.6771515668357571490.1
+Installing library in
+/Users/jordanemedlock/Projects/dlib-hs/.cabal-sandbox/lib/x86_64-osx-ghc-8.0.1/inline-c-0.5.6.1-Cbhce9zleuwBunX5oElNsq
+Registering inline-c-0.5.6.1...
+cabal: Leaving directory '/var/folders/kk/kngh2vtx0v138fhh9rsjgydw0000gn/T/cabal-tmp-7606/inline-c-0.5.6.1'

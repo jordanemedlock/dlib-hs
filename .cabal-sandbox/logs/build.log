@@ -1,0 +1,152 @@
+
+package: ansi-terminal-0.6.2.3
+os: osx
+arch: x86_64
+compiler: ghc-8.0.1
+client: cabal-install-1.24.0.0
+flags: -example
+dependencies: base-4.9.0.0 unix-2.7.2.0
+install-outcome: InstallOk
+docs-outcome: Ok
+tests-outcome: NotTried
+
+package: ansi-wl-pprint-0.6.7.3
+os: osx
+arch: x86_64
+compiler: ghc-8.0.1
+client: cabal-install-1.24.0.0
+flags: newbase -example
+dependencies: ansi-terminal-0.6.2.3 base-4.9.0.0
+install-outcome: InstallOk
+docs-outcome: Ok
+tests-outcome: NotTried
+
+package: base-orphans-0.5.4
+os: osx
+arch: x86_64
+compiler: ghc-8.0.1
+client: cabal-install-1.24.0.0
+dependencies: base-4.9.0.0 ghc-prim-0.5.0.0
+install-outcome: InstallOk
+docs-outcome: Ok
+tests-outcome: NotTried
+
+package: byteable-0.1.1
+os: osx
+arch: x86_64
+compiler: ghc-8.0.1
+client: cabal-install-1.24.0.0
+dependencies: base-4.9.0.0 bytestring-0.10.8.1
+install-outcome: InstallOk
+docs-outcome: Ok
+tests-outcome: NotTried
+
+package: charset-0.3.7.1
+os: osx
+arch: x86_64
+compiler: ghc-8.0.1
+client: cabal-install-1.24.0.0
+dependencies: array-0.5.1.1 base-4.9.0.0 bytestring-0.10.8.1
+              containers-0.5.7.1 semigroups-0.18.2 unordered-containers-0.2.7.0
+install-outcome: InstallOk
+docs-outcome: Ok
+tests-outcome: NotTried
+
+package: cryptohash-0.11.9
+os: osx
+arch: x86_64
+compiler: ghc-8.0.1
+client: cabal-install-1.24.0.0
+dependencies: base-4.9.0.0 byteable-0.1.1 bytestring-0.10.8.1
+              cryptonite-0.22 ghc-prim-0.5.0.0 memory-0.14.3
+install-outcome: InstallOk
+docs-outcome: Ok
+tests-outcome: NotTried
+
+package: cryptonite-0.22
+os: osx
+arch: x86_64
+compiler: ghc-8.0.1
+client: cabal-install-1.24.0.0
+flags: -support_sse support_rdrand -support_pclmuldq
+       support_deepseq -support_blake2_sse support_aesni
+       -old_toolchain_inliner integer-gmp -check_alignment
+dependencies: base-4.9.0.0 bytestring-0.10.8.1 deepseq-1.4.2.0
+              ghc-prim-0.5.0.0 integer-gmp-1.0.0.1 memory-0.14.3
+install-outcome: InstallOk
+docs-outcome: Ok
+tests-outcome: NotTried
+
+package: foundation-0.0.6
+os: osx
+arch: x86_64
+compiler: ghc-8.0.1
+client: cabal-install-1.24.0.0
+flags: -bounds-check -bench-all
+dependencies: base-4.9.0.0 ghc-prim-0.5.0.0
+install-outcome: InstallOk
+docs-outcome: Ok
+tests-outcome: NotTried
+
+package: inline-c-0.5.6.1
+os: osx
+arch: x86_64
+compiler: ghc-8.0.1
+client: cabal-install-1.24.0.0
+flags: -gsl-example
+dependencies: QuickCheck-2.8.2 ansi-wl-pprint-0.6.7.3 base-4.9.0.0
+              binary-0.8.3.0 bytestring-0.10.8.1 containers-0.5.7.1
+              cryptohash-0.11.9 directory-1.2.6.2 filepath-1.4.1.0
+              hashable-1.2.4.0 mtl-2.2.1 parsec-3.1.9 parsers-0.12.4
+              template-haskell-2.11.0.0 transformers-0.5.2.0
+              unordered-containers-0.2.7.0 vector-0.11.0.0
+install-outcome: InstallOk
+docs-outcome: Ok
+tests-outcome: NotTried
+
+package: inline-c-cpp-0.1.0.0
+os: osx
+arch: x86_64
+compiler: ghc-8.0.1
+client: cabal-install-1.24.0.0
+dependencies: base-4.9.0.0 inline-c-0.5.6.1
+              template-haskell-2.11.0.0
+install-outcome: InstallOk
+docs-outcome: Ok
+tests-outcome: NotTried
+
+package: memory-0.14.3
+os: osx
+arch: x86_64
+compiler: ghc-8.0.1
+client: cabal-install-1.24.0.0
+flags: support_foundation support_deepseq support_bytestring
+dependencies: base-4.9.0.0 bytestring-0.10.8.1 deepseq-1.4.2.0
+              foundation-0.0.6 ghc-prim-0.5.0.0
+install-outcome: InstallOk
+docs-outcome: Ok
+tests-outcome: NotTried
+
+package: parsers-0.12.4
+os: osx
+arch: x86_64
+compiler: ghc-8.0.1
+client: cabal-install-1.24.0.0
+dependencies: attoparsec-0.13.0.2 base-4.9.0.0 base-orphans-0.5.4
+              charset-0.3.7.1 containers-0.5.7.1 parsec-3.1.9 scientific-0.3.4.6
+              text-1.2.2.1 transformers-0.5.2.0 unordered-containers-0.2.7.0
+install-outcome: InstallOk
+docs-outcome: Ok
+tests-outcome: NotTried
+
+package: semigroups-0.18.2
+os: osx
+arch: x86_64
+compiler: ghc-8.0.1
+client: cabal-install-1.24.0.0
+flags: unordered-containers transformers text tagged hashable
+       deepseq containers bytestring-builder bytestring binary
+dependencies: base-4.9.0.0
+install-outcome: InstallOk
+docs-outcome: Ok
+tests-outcome: NotTried
