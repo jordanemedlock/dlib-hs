@@ -85,3 +85,4 @@ executable dlib-test
   hs-source-dirs: app
   build-depends: base >=4.9 && <4.10,
                  dlib-hs
+
